@@ -68,11 +68,73 @@
     ['Tension artérielle', 'Pression exercée par le sang sur la paroi des artères.']
   ];
   function glossaryModule() {
-    showModal('<h2>Lexique infirmier A–Z</h2><p>Définitions courtes pour réviser. Elles ne remplacent pas les protocoles de soin.</p><label class="module-search-label">Rechercher un terme<input id="lexQuery" type="search" placeholder="Ex. dyspnée"></label><div class="glossary-list" id="lexResults"></div>' + closeButton);
+    const expanded = Array.isArray(window.IFSI_LEXICON) && window.IFSI_LEXICON.length > 30;
+    const source = expanded
+      ? window.IFSI_LEXICON
+      : dictionary.map(([term,definition]) => ({term,definition,category:'Notions fondamentales'}));
+    const entries = [...source].sort((a,b) => a.term.localeCompare(b.term,'fr',{sensitivity:'base'}));
+    const categories = [...new Set(entries.map(x=>x.category))].sort((a,b)=>a.localeCompare(b,'fr'));
+    const alphabet = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'.split('');
+    const options = (items,allLabel) =>
+      '<option value="">' + E(allLabel) + '</option>' +
+      items.map(s=>'<option value="'+E(s)+'">'+E(s)+'</option>').join('');
+    showModal(
+      '<h2>Lexique infirmier A–Z · S1 à S6 et stages</h2>' +
+      '<p><b>'+entries.length+' termes</b> : observations, pathologies, médicaments, dispositifs, urgences, psychiatrie, gériatrie, pédiatrie et vocabulaire des stages.</p>' +
+      '<p>Lexique pédagogique complémentaire : les thèmes facilitent les révisions, mais ne correspondent pas à une répartition officielle par semestre. Les définitions restent synthétiques.</p>' +
+      '<label class="module-search-label" for="lexQuery">Rechercher un terme, un sigle ou une définition' +
+      '<input id="lexQuery" type="search" autocomplete="off" placeholder="Ex. dyspnée, RAI, ACR, Glasgow…"></label>' +
+      '<div class="lex-filters" style="display:grid;grid-template-columns:repeat(auto-fit,minmax(145px,1fr));gap:10px;margin:12px 0">' +
+      '<label>Thème<select id="lexCategory">'+options(categories,'Tous les thèmes')+'</select></label>' +
+      '<label>Première lettre<select id="lexLetter">'+options(alphabet,'Toutes les lettres')+'</select></label>' +
+      '<label>Type<select id="lexKind"><option value="">Tous les termes</option><option value="abbrev">Sigles et abréviations</option></select></label>' +
+      '</div>' +
+      '<p id="lexCount" aria-live="polite"></p>' +
+      '<div class="glossary-list" id="lexResults"></div>' +
+      '<div style="text-align:center;margin:12px"><button type="button" class="btn" id="lexMore" style="display:none">Afficher 75 termes supplémentaires</button></div>' +
+      '<p style="font-size:11px">Une définition ne remplace ni un protocole de service, ni une prescription, ni une évaluation clinique. Le vocabulaire peut varier selon les établissements. ' +
+      '<a href="https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000053568913" target="_blank" rel="noopener noreferrer">Référentiel IDE 2026</a>.</p>' +
+      closeButton
+    );
     attachClose();
-    const q = document.querySelector('#lexQuery'), root = document.querySelector('#lexResults');
-    const update = () => { const needle = norm(q.value); root.innerHTML = dictionary.filter(([word,def])=>!needle||norm(word+' '+def).includes(needle)).map(([word,def])=>'<div class="glossary-item"><b>'+E(word)+'</b><span>'+E(def)+'</span></div>').join('') || '<p>Aucun terme trouvé.</p>'; };
-    q.oninput = update; update();
+    const q=document.querySelector('#lexQuery');
+    const cat=document.querySelector('#lexCategory');
+    const letter=document.querySelector('#lexLetter');
+    const kind=document.querySelector('#lexKind');
+    const root=document.querySelector('#lexResults');
+    const counter=document.querySelector('#lexCount');
+    const more=document.querySelector('#lexMore');
+    let limit=75;
+    const abbr = t => {
+      const first = t.split(' ')[0];
+      return /^[A-ZÀ-Ý0-9₂]{2,9}$/.test(first) &&
+        first === first.toUpperCase() && /[A-ZÀ-Ý]/.test(first);
+    };
+    function update(reset=false) {
+      if(reset)limit=75;
+      const needle=norm(q.value);
+      const filtered=entries.filter(d =>
+        (!needle || norm([d.term,d.definition,d.category].join(' ')).includes(needle)) &&
+        (!cat.value || d.category===cat.value) &&
+        (!letter.value || norm(d.term)[0]===letter.value.toLowerCase()) &&
+        (!kind.value || abbr(d.term))
+      );
+      counter.textContent=filtered.length+' résultat'+(filtered.length>1?'s':'')+
+        (filtered.length>limit?' · '+limit+' affichés':'');
+      root.innerHTML=filtered.slice(0,limit).map(d =>
+        '<div class="glossary-item"><b>'+E(d.term)+'</b>'+
+        '<span>'+E(d.definition)+'</span>'+
+        '<small>'+E(d.category)+'</small></div>'
+      ).join('') || '<p>Aucun terme trouvé. Essaie un autre mot ou enlève un filtre.</p>';
+      more.style.display=filtered.length>limit?'inline-block':'none';
+    }
+    q.oninput=()=>update(true);
+    cat.onchange=()=>update(true);
+    letter.onchange=()=>update(true);
+    kind.onchange=()=>update(true);
+    more.onclick=()=>updateLimit();
+    function updateLimit(){limit+=75;update(false)}
+    update();
   }
   function visualModule() {
     showModal('<h2>Fiches A5 et cours A4 par UE</h2><p>Choisis un support pour l’ouvrir. L’organisation est commune à toutes les personnes utilisant le lien publié.</p><div class="module-results" id="moduleResults"></div>' + closeButton);
