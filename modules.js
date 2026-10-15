@@ -373,7 +373,10 @@
         (!needle || norm([m.group, m.family, m.examples, m.aim, m.nurse, m.monitor, m.alarm, prescriptionIDE(m)?.label||'', prescriptionIDE(m)?.who||''].join(' ')).includes(needle)));
       count.textContent = found.length + ' famille(s) affichée(s) sur ' + medicineFamilies.length;
       root.innerHTML = found.map(m => '<article class="med-card"><div class="med-card-head"><small>' + E(m.group) +
-        '</small><h3>' + E(m.family) + '</h3></div><p><b>Exemples :</b> ' + E(m.examples) +
+        '</small><h3>' + E(m.family) + '</h3></div>' +
+        (prescriptionIDE(m) ? '<div class="med-ide-annot"><b class="med-ide-flag '+E(prescriptionIDE(m).status)+'">'+E(prescriptionIDE(m).label)+'</b><p>'+E(prescriptionIDE(m).who)+'</p><a href="'+E(prescriptionIDE(m).ref)+'" target="_blank" rel="noopener noreferrer">Arrêté du 26 juin 2026</a>' +
+        (prescriptionIDE(m).history ? ' · <a href="'+E(prescriptionIDE(m).history)+'" target="_blank" rel="noopener noreferrer">Source antérieure</a>' : '') + '</div>' : '') +
+        '<p><b>Exemples :</b> ' + E(m.examples) +
         '</p><p><b>À quoi ça sert :</b> ' + E(m.aim) +
         '</p><p><b>Actes / rôle IDE :</b> ' + E(m.nurse) +
         '</p><p><b>Surveillance :</b> ' + E(m.monitor) +
