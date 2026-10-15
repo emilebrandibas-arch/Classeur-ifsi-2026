@@ -9,6 +9,12 @@ import tempfile
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
+# Versions A1 remplacées : fichiers conservés pour archivage, sans doublons à l'écran.
+LEGACY_PDFS = {
+    "documents/1h5JkO09mN5twT9UhxHKNHBez4l0-WRJi.pdf",
+    "documents/18i2dHVJnWukc-g9BphyYbMoplI30IlCO.pdf",
+}
+
 errors = []
 
 
@@ -92,9 +98,31 @@ for item in records:
     elif not item.get("images"):
         problem(f"{doc_id}: pas de source PDF")
 
-references = re.findall(r'href=["\'](\.?/?documents/[^"\']+\.pdf)["\']', planning)
-for path in references:
+published = {
+    item["filePath"].removeprefix("./"): item
+    for item in records
+    if isinstance(item, dict) and item.get("filePath") and not item.get("archived")
+}
+for pdf in (ROOT / "documents").glob("*.pdf"):
+    rel = pdf.relative_to(ROOT).as_posix()
+    if rel not in published and rel not in LEGACY_PDFS:
+        problem(f"PDF GitHub non classé dans le sommaire : {rel}")
+
+matches = re.findall(
+    r'href=["\'](\.?/?documents/[^"\']+\.pdf)["\'][^>]*>([^<]*)</a>',
+    planning,
+)
+references = [path for path, _ in matches]
+for path, label in matches:
     check_pdf(path, "planning.html")
+    key = path.removeprefix("./")
+    item = published.get(key)
+    if item is None:
+        problem(f"lien du planning absent du sommaire publié : {key}")
+        continue
+    is_a5 = item.get("type") == "FICHE"
+    if ("A4" in label.upper() and is_a5) or ("A5" in label.upper() and not is_a5):
+        problem(f"mauvais format indiqué dans le planning : {key} ({label})")
 
 for src in re.findall(r'<script\b[^>]*\bsrc=["\'](\.?/[^"\']+\.js)["\']', html):
     name = src.removeprefix("./")
