@@ -129,6 +129,38 @@ for src in re.findall(r'<script\b[^>]*\bsrc=["\'](\.?/[^"\']+\.js)["\']', html):
     if not (ROOT / name).is_file():
         problem(f"script JavaScript manquant : {src}")
 
+
+lexicon_path = ROOT / "lexique-ifsi.js"
+if lexicon_path.is_file():
+    lexicon_text = lexicon_path.read_text(encoding="utf-8")
+    lexicon_match = re.search(
+        r'window\.IFSI_LEXICON\s*=\s*(\[[\s\S]*?\]);\s*window\.IFSI_LEXICON_REFERENCE',
+        lexicon_text,
+    )
+    if not lexicon_match:
+        problem("lexique : liste des définitions absente")
+    else:
+        try:
+            lexicon = json.loads(lexicon_match.group(1))
+            if len(lexicon) < 250:
+                problem("lexique : nombre de termes anormalement bas")
+            seen = set()
+            for item in lexicon:
+                if not isinstance(item, dict) or not all(
+                    item.get(key) and isinstance(item.get(key), str)
+                    for key in ("term", "definition", "category")
+                ):
+                    problem("lexique : entrée incomplète")
+                    continue
+                key = item["term"].casefold()
+                if key in seen:
+                    problem(f"lexique : doublon {item['term']}")
+                seen.add(key)
+        except (ValueError, TypeError) as exc:
+            problem(f"lexique : JSON invalide ({exc})")
+else:
+    problem("lexique-ifsi.js introuvable")
+
 inline = re.search(r"<script>\s*('use strict';[\s\S]*?)</script>", html)
 if not inline:
     problem("script principal absent")
@@ -136,7 +168,7 @@ else:
     with tempfile.TemporaryDirectory() as td:
         inline_path = Path(td) / "classeur-inline.js"
         inline_path.write_text(inline.group(1), encoding="utf-8")
-        for script in [inline_path, ROOT / "modules.js"]:
+        for script in [inline_path, ROOT / "modules.js", ROOT / "lexique-ifsi.js"]:
             if script.exists():
                 try:
                     check = subprocess.run(
