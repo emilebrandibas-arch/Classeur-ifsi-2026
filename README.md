@@ -1,7 +1,7 @@
 # Classeur IFSI 2026–2029
 
 **Lien public du classeur à partager :**
-https://emilebrandibas-arch.github.io/Classeur-ifsi-2026./
+https://emilebrandibas-arch.github.io/Classeur-ifsi-2026/
 
 Le classeur regroupe les cours A4, les fiches de révision A5 et le planning CM/TD, classés par UE et semestre.
 
