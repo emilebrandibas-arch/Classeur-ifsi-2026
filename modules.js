@@ -80,7 +80,24 @@
     results(all().sort((a,b)=>a.ue.localeCompare(b.ue,'fr') || a.title.localeCompare(b.title,'fr')));
   }
   function lawModule() {
-    showModal('<h2>Références juridiques et professionnelles</h2><p>Consulte les textes officiels à jour avant de citer une obligation. Les supports de cours ne remplacent pas les textes applicables.</p><div class="legal-links"><a target="_blank" rel="noopener noreferrer" href="https://www.legifrance.gouv.fr/codes/id/LEGITEXT000006072665/">Code de la santé publique — Légifrance</a><a target="_blank" rel="noopener noreferrer" href="https://www.legifrance.gouv.fr/">Recherche des textes — Légifrance</a><a target="_blank" rel="noopener noreferrer" href="https://www.has-sante.fr/">Haute Autorité de santé</a><a target="_blank" rel="noopener noreferrer" href="https://ansm.sante.fr/">ANSM — médicaments et sécurité</a><a target="_blank" rel="noopener noreferrer" href="https://sante.gouv.fr/">Ministère chargé de la Santé</a></div>' + closeButton);
+    showModal(
+      '<h2>Juridique, lois et déontologie infirmière</h2>' +
+      '<p>Références officielles consultables par tous. Vérifier sur Légifrance la version en vigueur à la date du soin ou du devoir.</p>' +
+      '<h3>Déontologie et exercice infirmier</h3>' +
+      '<div class="legal-links">' +
+      '<a target="_blank" rel="noopener noreferrer" href="https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000006072665/LEGISCTA000006178629/">Code de déontologie des infirmiers — articles R4312-1 à R4312-92 (Légifrance)</a>' +
+      '<a target="_blank" rel="noopener noreferrer" href="https://www.legifrance.gouv.fr/codes/id/LEGISCTA000006161001">Exercice et règles professionnelles IDE — articles R4311 et R4312 (Légifrance)</a>' +
+      '<a target="_blank" rel="noopener noreferrer" href="https://www.legifrance.gouv.fr/loda/id/JORFTEXT000051806032/">Loi n° 2025-581 du 27 juin 2025 sur la profession infirmière</a>' +
+      '<a target="_blank" rel="noopener noreferrer" href="https://www.legifrance.gouv.fr/codes/id/LEGITEXT000006072665/">Code de la santé publique — texte intégral</a>' +
+      '</div>' +
+      '<h3>Textes officiels et références de soins</h3>' +
+      '<div class="legal-links">' +
+      '<a target="_blank" rel="noopener noreferrer" href="https://www.legifrance.gouv.fr/">Légifrance — rechercher lois, décrets et arrêtés</a>' +
+      '<a target="_blank" rel="noopener noreferrer" href="https://www.has-sante.fr/">Haute Autorité de santé — recommandations</a>' +
+      '<a target="_blank" rel="noopener noreferrer" href="https://ansm.sante.fr/">ANSM — médicaments et sécurité</a>' +
+      '<a target="_blank" rel="noopener noreferrer" href="https://sante.gouv.fr/">Ministère chargé de la Santé</a>' +
+      '</div>' + closeButton
+    );
     attachClose();
   }
   const tests = [
