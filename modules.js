@@ -79,24 +79,172 @@
     attachClose();
     results(all().sort((a,b)=>a.ue.localeCompare(b.ue,'fr') || a.title.localeCompare(b.title,'fr')));
   }
+  
+  const lawSections = [
+  {
+    "heading": "Exercice infirmier et droits des patients",
+    "links": [
+      [
+        "Code de la santé publique",
+        "Droits des patients, exercice IDE et établissements de santé",
+        "https://www.legifrance.gouv.fr/codes/id/LEGITEXT000006072665/"
+      ],
+      [
+        "Déontologie des infirmiers",
+        "Règles professionnelles et devoirs de l'IDE ; articles R4312",
+        "https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000006072665/LEGISCTA000006178629/"
+      ],
+      [
+        "Actes et exercice de la profession infirmière",
+        "Textes réglementaires R4311 et R4312 ; vérifier la version applicable",
+        "https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000006072665/LEGISCTA000006161001/"
+      ],
+      [
+        "Loi du 27 juin 2025 sur la profession infirmière",
+        "Texte législatif sur l'évolution de la profession",
+        "https://www.legifrance.gouv.fr/loda/id/JORFTEXT000051806032/"
+      ]
+    ]
+  },
+  {
+    "heading": "Les grands codes français",
+    "links": [
+      [
+        "Code pénal",
+        "Infractions, responsabilités pénales et sanctions",
+        "https://www.legifrance.gouv.fr/codes/texte_lc/LEGITEXT000006070719/"
+      ],
+      [
+        "Code civil",
+        "Responsabilité civile, contrats, réparation, personnes et biens",
+        "https://www.legifrance.gouv.fr/codes/texte_lc/LEGITEXT000006070721/"
+      ],
+      [
+        "Code de procédure pénale",
+        "Plainte, enquête, procès pénal et droits des victimes",
+        "https://www.legifrance.gouv.fr/codes/texte_lc/LEGITEXT000006071154/"
+      ],
+      [
+        "Code du travail",
+        "Contrat de travail, santé, sécurité et droits du salarié",
+        "https://www.legifrance.gouv.fr/codes/texte_lc/LEGITEXT000006072050/"
+      ],
+      [
+        "Code de la sécurité sociale",
+        "Assurance maladie, indemnisation et prestations",
+        "https://www.legifrance.gouv.fr/codes/texte_lc/LEGITEXT000006073189/"
+      ],
+      [
+        "Code de l'action sociale et des familles",
+        "Personnes vulnérables, établissements médico-sociaux et protection",
+        "https://www.legifrance.gouv.fr/codes/texte_lc/LEGITEXT000006074069/"
+      ]
+    ]
+  },
+  {
+    "heading": "Vérifier une loi, un article ou une décision",
+    "links": [
+      [
+        "Légifrance — textes officiels",
+        "Rechercher le texte, son numéro, sa date et ses versions",
+        "https://www.legifrance.gouv.fr/"
+      ],
+      [
+        "Service-Public.fr",
+        "Fiches officielles expliquant les droits et démarches",
+        "https://www.service-public.fr/"
+      ],
+      [
+        "Vie-publique",
+        "Explications sur les lois, les institutions et les réformes",
+        "https://www.vie-publique.fr/"
+      ],
+      [
+        "Cour de cassation — Judilibre",
+        "Vérifier la jurisprudence judiciaire et pénale",
+        "https://www.courdecassation.fr/recherche-judilibre"
+      ],
+      [
+        "Conseil d'État — ArianeWeb",
+        "Vérifier la jurisprudence administrative",
+        "https://www.conseil-etat.fr/"
+      ],
+      [
+        "EUR-Lex",
+        "Textes de l'Union européenne et règlements",
+        "https://eur-lex.europa.eu/"
+      ]
+    ]
+  },
+  {
+    "heading": "Organismes de référence en santé et droits",
+    "links": [
+      [
+        "Haute Autorité de santé (HAS)",
+        "Recommandations de bonnes pratiques et qualité des soins",
+        "https://www.has-sante.fr/"
+      ],
+      [
+        "ANSM",
+        "Médicaments, dispositifs médicaux et informations de sécurité",
+        "https://ansm.sante.fr/"
+      ],
+      [
+        "Ministère chargé de la Santé",
+        "Politique de santé et informations institutionnelles",
+        "https://sante.gouv.fr/"
+      ],
+      [
+        "CNIL",
+        "Données personnelles, droits RGPD et réclamations",
+        "https://www.cnil.fr/"
+      ],
+      [
+        "Défenseur des droits",
+        "Droits des usagers et lutte contre les discriminations",
+        "https://www.defenseurdesdroits.fr/"
+      ]
+    ]
+  },
+  {
+    "heading": "Fiabilité des sites et documents",
+    "links": [
+      [
+        "Cybermalveillance.gouv.fr",
+        "Conseils officiels pour identifier les arnaques et sites suspects",
+        "https://www.cybermalveillance.gouv.fr/"
+      ],
+      [
+        "Annuaire des entreprises",
+        "Vérifier l'existence légale d'une entreprise en France",
+        "https://annuaire-entreprises.data.gouv.fr/"
+      ],
+      [
+        "AFNIC — Whois",
+        "Consulter les informations publiques sur un nom de domaine",
+        "https://www.afnic.fr/outils/whois/"
+      ]
+    ]
+  }
+];
   function lawModule() {
+    const content = lawSections.map(section =>
+      '<h3 class="legal-subhead">' + E(section.heading) + '</h3>' +
+      '<div class="legal-links">' +
+      section.links.map(([title, description, url]) =>
+        '<a class="legal-link" target="_blank" rel="noopener noreferrer" href="' + E(url) + '">' +
+        '<b>' + E(title) + ' ↗</b>' +
+        '<span>' + E(description) + '</span>' +
+        '</a>'
+      ).join('') + '</div>'
+    ).join('');
     showModal(
-      '<h2>Juridique, lois et déontologie infirmière</h2>' +
-      '<p>Références officielles consultables par tous. Vérifier sur Légifrance la version en vigueur à la date du soin ou du devoir.</p>' +
-      '<h3>Déontologie et exercice infirmier</h3>' +
-      '<div class="legal-links">' +
-      '<a target="_blank" rel="noopener noreferrer" href="https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000006072665/LEGISCTA000006178629/">Code de déontologie des infirmiers — articles R4312-1 à R4312-92 (Légifrance)</a>' +
-      '<a target="_blank" rel="noopener noreferrer" href="https://www.legifrance.gouv.fr/codes/id/LEGISCTA000006161001">Exercice et règles professionnelles IDE — articles R4311 et R4312 (Légifrance)</a>' +
-      '<a target="_blank" rel="noopener noreferrer" href="https://www.legifrance.gouv.fr/loda/id/JORFTEXT000051806032/">Loi n° 2025-581 du 27 juin 2025 sur la profession infirmière</a>' +
-      '<a target="_blank" rel="noopener noreferrer" href="https://www.legifrance.gouv.fr/codes/id/LEGITEXT000006072665/">Code de la santé publique — texte intégral</a>' +
-      '</div>' +
-      '<h3>Textes officiels et références de soins</h3>' +
-      '<div class="legal-links">' +
-      '<a target="_blank" rel="noopener noreferrer" href="https://www.legifrance.gouv.fr/">Légifrance — rechercher lois, décrets et arrêtés</a>' +
-      '<a target="_blank" rel="noopener noreferrer" href="https://www.has-sante.fr/">Haute Autorité de santé — recommandations</a>' +
-      '<a target="_blank" rel="noopener noreferrer" href="https://ansm.sante.fr/">ANSM — médicaments et sécurité</a>' +
-      '<a target="_blank" rel="noopener noreferrer" href="https://sante.gouv.fr/">Ministère chargé de la Santé</a>' +
-      '</div>' + closeButton
+      '<h2>Juridique — codes et références officielles</h2>' +
+      '<p>Bibliothèque de liens pour les études infirmières, les droits et les recherches juridiques. Les liens ouvrent les textes et sites de référence.</p>' +
+      '<div class="legal-callout"><b>Vérifier un texte :</b> relever le numéro de l’article, vérifier la version en vigueur ou la version applicable à la date des faits, puis identifier la source officielle. Une fiche explicative ne remplace pas le texte de loi.</div>' +
+      content +
+      '<p class="legal-foot" style="margin-top:16px">Accès en ligne : les sites externes peuvent évoluer. Les sources officielles font foi ; cette bibliothèque ne constitue pas un conseil juridique.</p>' +
+      closeButton
     );
     attachClose();
   }
