@@ -375,7 +375,7 @@
       root.innerHTML = found.map(m => '<article class="med-card"><div class="med-card-head"><small>' + E(m.group) +
         '</small><h3>' + E(m.family) + '</h3></div>' +
         (prescriptionIDE(m) ? '<div class="med-ide-annot"><b class="med-ide-flag '+E(prescriptionIDE(m).status)+'">'+E(prescriptionIDE(m).label)+'</b><p>'+E(prescriptionIDE(m).who)+'</p><a href="'+E(prescriptionIDE(m).ref)+'" target="_blank" rel="noopener noreferrer">Arrêté du 26 juin 2026</a>' +
-        (prescriptionIDE(m).history ? ' · <a href="'+E(prescriptionIDE(m).history)+'" target="_blank" rel="noopener noreferrer">Source antérieure</a>' : '') + '</div>' : '') +
+        (prescriptionIDE(m).history ? ' · <a href="'+E(prescriptionIDE(m).history)+'" target="_blank" rel="noopener noreferrer">Référence complémentaire</a>' : '') + '</div>' : '') +
         '<p><b>Exemples :</b> ' + E(m.examples) +
         '</p><p><b>À quoi ça sert :</b> ' + E(m.aim) +
         '</p><p><b>Actes / rôle IDE :</b> ' + E(m.nurse) +
