@@ -47,6 +47,12 @@ for i,sec in enumerate(data["sections"],1):
  story.append(Paragraph(f"{i:02d}  {escape(sec[0])}",s["H2X"]))
  for line in sec[1:-1]:story.append(Paragraph("• "+escape(line),s["BULX"]))
  story.append(Paragraph("<b>Rôle et surveillances infirmiers.</b> "+escape(sec[-1]),s["NOTEX"]))
+story.append(Paragraph("Lexique fondamental à mémoriser (UE B1)",s["H2X"]))
+lex_path=os.path.join(BASE,"lexiques/UE_B1_Systeme_locomoteur_2026.md")
+for lex_line in open(lex_path,encoding="utf-8"):
+ if lex_line.startswith("- **") and "** — " in lex_line:
+  word,definition=lex_line[4:].split("** — ",1)
+  story.append(Paragraph("<b>"+escape(word)+"</b> : "+escape(definition),s["SMALLX"]))
 story.append(Paragraph("Autoévaluation",s["H2X"]))
 for x in ["Quels sont les signes d'un syndrome des loges ?","Comment distinguer traitement fonctionnel, orthopédique et chirurgical ?","Que surveiller sous plâtre ?","Quel risque hémodynamique peut compliquer une fracture du fémur ?","Citer les composantes ABCDE.","Quels sont les drapeaux rouges de la lombalgie ?","Quelles surveillances après une fracture de hanche ?","Que mesure la DXA et à quoi sert le DN4 ?"]:
  story.append(Paragraph("• "+escape(x),s["BULX"]))
