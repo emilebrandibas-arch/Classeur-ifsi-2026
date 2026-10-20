@@ -20,7 +20,7 @@ main{min-width:0;display:flex;flex-direction:column}.topbar{min-height:81px;disp
 <script>
 'use strict';
 const $=s=>document.querySelector(s), seed=JSON.parse($('#starter').textContent);
-const UE_NAMES={A1:'Fondements infirmiers',B1:'Fondamentaux biomédicaux',B2:'Psychologie et développement',B3:'Pratiques et interventions',C1:'Santé publique',C2:'Santé environnementale',D1:'Posture professionnelle',E3:'Méthodes de travail'};
+const UE_NAMES={A1:'Sciences infirmières et raisonnement clinique',B1:'Fondamentaux biomédicaux',B2:'Psychologie et développement',B3:'Pratiques et interventions',C1:'Santé publique',C2:'Santé environnementale',D1:'Posture professionnelle',E3:'Méthodes de travail'};
 const SEMS=['S1','S2','S3','S4','S5','S6'], TYPES=['CM','TD','TP','COURS','QCM','FICHE','ANNEXE'], SPAGES={'A4':['CM','TD','TP','COURS','QCM','ANNEXE'],'A5':['FICHE']};
 const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const trim=s=>String(s??'').trim(); const normalized=s=>trim(s).normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase().replace(/[^a-z0-9]/g,'');
