@@ -1,0 +1,165 @@
+{
+  "ue": "B1",
+  "semester": "S1",
+  "title": "Système locomoteur - orthopédie, traumatologie et rôle infirmier",
+  "date": "2026-10-18",
+  "teacher": "G. Micicoi",
+  "duration": "3 h 51 min 42 s",
+  "source": "Retranscription automatique de 128 pages reçue le 18 octobre 2026, largement altérée entre 75-125 min et 170-190 min ; reconstruction pédagogique et non transcription littérale.",
+  "refs": [
+    "https://www.legifrance.gouv.fr/loda/id/JORFTEXT000053568913",
+    "https://www.legifrance.gouv.fr/codes/id/LEGISCTA000022913053/",
+    "https://www.has-sante.fr/jcms/c_2961499/fr/lombalgie-commune-de-l-adulte"
+  ],
+  "sections": [
+    [
+      "Anatomie et remodelage osseux",
+      "Le système locomoteur comprend os, articulations, cartilage, muscles, tendons et ligaments.",
+      "Os long : épiphyses, métaphyses, diaphyse ; os cortical et os trabéculaire.",
+      "Ostéoblastes = formation ; ostéoclastes = résorption ; périoste = enveloppe vascularisée.",
+      "La mobilisation et la mise en charge adaptées entretiennent le capital osseux.",
+      "IDE : douleur, autonomie, peau, risque de chute et mobilisation autorisée."
+    ],
+    [
+      "Caractéristiques des fractures",
+      "Fracture = rupture de continuité de l'os, complète ou incomplète.",
+      "Décrire : siège ; trait transversal, oblique, spiroïde ; déplacement et nombre de fragments.",
+      "Fracture ouverte = communication avec le milieu extérieur et risque d'infection.",
+      "Fracture de fatigue = microtraumatismes répétés ; fracture de fragilité = faible énergie sur os fragilisé.",
+      "IDE : mécanisme, douleur, déformation, peau, pouls, sensibilité et motricité."
+    ],
+    [
+      "Complications vasculaires, nerveuses et syndrome des loges",
+      "Syndrome des loges : pression excessive dans la loge musculaire compromettant la perfusion.",
+      "Alerte : douleur disproportionnée, douleur à l'étirement passif, loge tendue, paresthésies.",
+      "Les pouls peuvent être encore présents : ne pas attendre leur disparition.",
+      "Fracture du fémur ou bassin : risque d'hémorragie interne et de choc.",
+      "IDE : évaluer neurovasculaire, constantes, conscience ; alerte médicale immédiate."
+    ],
+    [
+      "Bilan clinique et imagerie",
+      "Examiner la peau, les articulations voisines et les signes vasculo-nerveux.",
+      "Radiographie face et profil : bilan initial osseux.",
+      "Scanner : fractures complexes et articulaires ; IRM : lésions ligamentaires ou neurologiques selon indication.",
+      "Une radiographie normale ne suffit pas à exclure toutes les lésions.",
+      "IDE : sécuriser transferts, anticiper antalgie, transmettre les changements cliniques."
+    ],
+    [
+      "Traitements des fractures",
+      "Fonctionnel : mobilisation adaptée dans une situation retenue comme stable.",
+      "Orthopédique : plâtre, attelle, orthèse ou corset, parfois après réduction.",
+      "Chirurgical : ostéosynthèse par plaque, vis, clou ou fixateur externe.",
+      "Prothèse = remplacement articulaire ; arthrodèse = fusion.",
+      "IDE : vérifier consignes écrites de mise en charge, restrictions, pansement et prévention thromboembolique."
+    ],
+    [
+      "Surveillances sous plâtre et fixateur",
+      "Risque de compression, ischémie, œdème, plaie et lésion cutanée.",
+      "Évaluer douleur, coloration, chaleur, pouls accessibles, perfusion, sensibilité et motricité.",
+      "Surveiller points de pression et orifices de broches selon protocole.",
+      "Aucun objet sous le plâtre ; garder au sec ; ne pas le modifier sans indication.",
+      "IDE : alerter immédiatement pour douleur croissante, paresthésie ou extrémité froide."
+    ],
+    [
+      "Consolidation et complications tardives",
+      "Phases : inflammation/hématome, cal mou, cal dur, remodelage.",
+      "Retard de consolidation, pseudarthrose, cal vicieux, infection, raideur, syndrome douloureux régional complexe.",
+      "Le tabac, la dénutrition et les infections peuvent gêner la consolidation.",
+      "Chez l'enfant : périoste important, fracture en bois vert, cartilage de croissance à protéger.",
+      "IDE : suivi douleur, nutrition, peau, infection, adhésion aux consignes et reprise de fonction."
+    ],
+    [
+      "Fracture proximale du fémur",
+      "Chez la personne âgée, souvent après chute de faible énergie.",
+      "Douleur de hanche, impossibilité d'appui, parfois raccourcissement et rotation externe.",
+      "Risques liés au décubitus : escarres, TVP/EP, pneumopathie, confusion et perte d'autonomie.",
+      "Le projet de soins inclut rééducation et prévention des chutes.",
+      "IDE : plaie, saignement, delirium, nutrition, douleur, lever prescrit et aide au domicile."
+    ],
+    [
+      "Entorses et luxations",
+      "Luxation : perte complète des rapports anatomiques articulaires.",
+      "Entorse : lésion ligamentaire pouvant provoquer instabilité et épanchement.",
+      "Une lésion grave des ligaments peut exister sans fracture radiographique.",
+      "Avant et après réduction : examen vasculo-nerveux et douleur.",
+      "IDE : immobilisation prescrite, antalgie et signes de récidive ou compression."
+    ],
+    [
+      "Traumatismes rachidiens",
+      "Le rachis protège moelle et racines nerveuses.",
+      "Traumatisme instable : risque de lésion neurologique lors de mobilisations inadaptées.",
+      "Signes de gravité : déficit moteur/sensitif, troubles sphinctériens, détresse respiratoire.",
+      "Respecter les précautions rachidiennes jusqu'à évaluation médicale.",
+      "IDE : surveillance neurologique et ventilatoire, alignement, traçabilité."
+    ],
+    [
+      "Polytraumatisme et bassin",
+      "ABCDE : voies aériennes, respiration, circulation, neurologie et exposition.",
+      "Les fractures instables du bassin peuvent s'accompagner d'hémorragie majeure.",
+      "Prévenir l'hypothermie et limiter les mobilisations inutiles.",
+      "La priorité porte sur les fonctions vitales avant le traitement osseux définitif.",
+      "IDE : alerte, surveillance rapprochée, aide à l'hémostase et transmissions horodatées."
+    ],
+    [
+      "Amputations et douleur fantôme",
+      "Amputation pour ischémie irréversible, traumatisme destructeur, infection sévère ou tumeur.",
+      "Douleur du membre fantôme distincte de la sensation non douloureuse.",
+      "Soins du moignon : douleur, peau, pansement, infection, saignement et œdème.",
+      "Accompagnement de l'image corporelle, de l'autonomie et du projet de vie.",
+      "IDE : soutien, prévention chutes et coordination rééducation/appareillage."
+    ],
+    [
+      "Arthrose et prothèses",
+      "Arthrose = atteinte chronique de toute l'articulation avec douleur et gêne fonctionnelle.",
+      "Coxarthrose = hanche ; gonarthrose = genou.",
+      "Premières mesures : exercices et activité adaptés, renforcement, éducation, aides techniques.",
+      "Une prothèse peut être proposée en cas de handicap résistant aux traitements adaptés.",
+      "IDE : douleur, mobilité, cicatrice, risque infectieux et thromboembolique."
+    ],
+    [
+      "Lombalgie, radiculalgies, drapeaux rouges",
+      "Lombalgie = douleur lombaire ; sciatique/cruralgie = irradiation radiculaire.",
+      "Pour une lombalgie commune : éviter le repos strict prolongé et favoriser la reprise progressive.",
+      "Alerte : anesthésie en selle, troubles sphinctériens récents, déficit progressif, fièvre ou contexte tumoral.",
+      "Prévention : gestes adaptés et aides techniques en manutention.",
+      "IDE : interroger élimination, déficit neurologique et retentissement fonctionnel."
+    ],
+    [
+      "Ostéoporose et fractures de fragilité",
+      "Ostéoporose = perte de résistance osseuse et fractures après faible traumatisme.",
+      "Localisations classiques : vertèbres, poignet et extrémité supérieure du fémur.",
+      "DXA mesure la densité minérale ; le T-score ne remplace pas l'évaluation globale.",
+      "Prévention : activité adaptée, équilibre, nutrition, réduction des chutes, médicaments selon prescription.",
+      "IDE : repérer fracture antérieure, risque de chute et observance du suivi."
+    ],
+    [
+      "Douleurs et prévention pendant les soins",
+      "Nociceptive : atteinte tissulaire ; neuropathique : lésion ou maladie du système somatosensoriel.",
+      "Échelle numérique 0-10, EVA et EVS : mesure de l'intensité ; DN4 : orientation neuropathique.",
+      "Évaluer avant/après antalgiques et avant/après soins douloureux.",
+      "Associer approches non pharmacologiques et traitement prescrit ; surveiller effets indésirables.",
+      "IDE : anticiper horaires d'antalgie, réévaluer, tracer et transmettre."
+    ],
+    [
+      "Mémo pratique et questions",
+      "Traumatisme : évaluer, immobiliser selon protocole, rechercher lésions associées, alerter et tracer.",
+      "Sous plâtre : douleur disproportionnée + paresthésies = urgence.",
+      "Après fracture de hanche : rééducation et autonomie aussi importantes que la réparation osseuse.",
+      "Rachis : respect de l'alignement ; bassin : risque d'hémorragie.",
+      "Auto-test : citer les trois traitements, les signes vasculo-nerveux et les drapeaux rouges de lombalgie."
+    ]
+  ],
+  "revision_cards": [
+    0,
+    1,
+    2,
+    4,
+    5,
+    7,
+    9,
+    10,
+    13,
+    14,
+    15
+  ]
+}
