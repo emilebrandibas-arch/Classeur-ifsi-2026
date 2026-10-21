@@ -20,6 +20,12 @@ jobs:
       - uses: actions/checkout@v4
       - name: Vérifier le classeur avant publication
         run: python3 scripts/validate_site.py
+      - name: Contrôler le rafraîchissement automatique
+        run: |
+          node --check site-sync.js
+          python3 -m py_compile scripts/prepare_public_site.py
+      - name: Préparer le site partagé et son identifiant de publication
+        run: python3 scripts/prepare_public_site.py
       - uses: actions/configure-pages@v5
         with:
           enablement: true
