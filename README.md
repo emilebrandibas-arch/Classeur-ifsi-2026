@@ -5,6 +5,10 @@ https://emilebrandibas-arch.github.io/Classeur-ifsi-2026/
 
 Le classeur regroupe les cours A4, les fiches de révision A5 et le planning CM/TD, classés par UE et semestre.
 
+## Mise à jour UE B1 du 21 octobre 2026
+
+Trois PDF A4 ajoutés et classés : hématologie (4 p.), hémostase (4 p.), biologie cellulaire et moléculaire (5 p., provisoire). Fiches A5 existantes conservées ; lexique général enrichi et sommaire UE B1 révisé. Voir [sommaire UE B1](sommaires/UE_B1_S1_2026.md).
+
 ## Publication et mise à jour
 
 - La version partagée repose sur `index.html`, `modules.js`, `planning.html` et les PDF du dossier `documents/`.
