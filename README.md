@@ -9,6 +9,10 @@ Le classeur regroupe les cours A4, les fiches de révision A5 et le planning CM/
 
 Trois PDF A4 ajoutés et classés : hématologie (4 p.), hémostase (4 p.), biologie cellulaire et moléculaire (5 p., provisoire). Fiches A5 existantes conservées ; lexique général enrichi et sommaire UE B1 révisé. Voir [sommaire UE B1](sommaires/UE_B1_S1_2026.md).
 
+## Mise à jour UE B3 du 21 octobre 2026
+
+Ajout du cours A4 et des fiches A5 « Examens biologiques et prélèvements : bonnes pratiques infirmières », avec schémas légendés. Lexique général enrichi à 924 termes, lexique UE B3 actualisé à 71 termes et sommaire B3 complété. Le numéro de CM n’est pas précisé sur Moodle. Le support Moodle PPTX n’ayant pas pu être extrait, les PDF sont une synthèse autonome à vérifier avec les consignes du laboratoire et le cours.
+
 ## Publication et mise à jour
 
 - La version partagée repose sur `index.html`, `modules.js`, `planning.html` et les PDF du dossier `documents/`.

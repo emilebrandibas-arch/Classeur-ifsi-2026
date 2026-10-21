@@ -1,6 +1,5 @@
 # UE B.3 — Lexique des prélèvements sanguins, hémocultures et gazométrie
-
-Mise à jour : **21 octobre 2026** · **57 définitions classées par ordre alphabétique**.
+Mise à jour : **21 octobre 2026** · **71 définitions classées par ordre alphabétique**.
 
 Cette ressource est complémentaire du lexique général du classeur. Un protocole local validé reste nécessaire pour les actes.
 
@@ -46,14 +45,32 @@ Pression manuelle ferme et prolongée sur un site de ponction artérielle pour o
 ### Contamination croisée des tubes
 Passage d'un additif d'un tube vers un autre pouvant fausser les résultats biologiques.
 
+### Contamination préanalytique
+Altération de l’échantillon avant l’analyse, par exemple par une antisepsie insuffisante, un contenant inadapté ou un contact non maîtrisé.
+
+### Coproculture
+Examen microbiologique des selles à la recherche de bactéries pathogènes, réalisé sur un prélèvement et un contenant adaptés aux consignes du laboratoire.
+
 ### CTAD
 Citrate-théophylline-adénosine-dipyridamole : additif spécialisé limitant l'activation plaquettaire ex vivo.
+
+### ECBU
+Examen cytobactériologique des urines, destiné à rechercher et caractériser une infection urinaire ; le recueil suit les consignes du laboratoire.
+
+### Échantillon biologique
+Matière d’origine humaine recueillie pour un examen : sang, urine, selles, sécrétion ou autre prélèvement.
 
 ### Échantillon non conforme
 Prélèvement ne satisfaisant pas les critères de qualité du laboratoire (identité, tube, volume, délai, transport, etc.).
 
+### Écouvillon
+Dispositif stérile utilisé pour recueillir un prélèvement sur une muqueuse, une plaie ou une autre surface, avec un milieu de transport selon l’analyse.
+
 ### Excès de bases (BE)
 Indicateur du versant métabolique de l'équilibre acidobasique, dérivé des mesures de gaz sanguins.
+
+### Expectoration
+Sécrétion bronchopulmonaire expulsée par la toux et recueillie pour un examen ; elle se distingue de la salive par les consignes de recueil.
 
 ### FiO₂
 Fraction inspirée en oxygène, proportion d'oxygène inhalée, à documenter pour interpréter une gazométrie.
@@ -100,6 +117,18 @@ Mélange doux du sang et de l'additif par inversions successives du tube, sans a
 ### Identification au lit du patient
 Vérification de l'identité et étiquetage des prélèvements immédiatement auprès de la personne prélevée.
 
+### Identitovigilance
+Mesures visant à garantir l’identification fiable du patient et le lien correct entre la personne, le prélèvement et les résultats.
+
+### Milieu de transport
+Milieu permettant de préserver un prélèvement pendant son acheminement vers le laboratoire, selon le type d’analyse demandé.
+
+### Non-conformité préanalytique
+Écart susceptible de compromettre l’identification, la qualité, la conservation ou l’interprétation d’un échantillon avant son analyse.
+
+### OPCT
+Objet piquant, coupant ou tranchant présentant un risque d’exposition au sang et à éliminer dans le collecteur adapté, sans recapuchonnage.
+
 ### Ordre de prélèvement
 Séquence des tubes visant à limiter les contaminations entre additifs et les erreurs de résultats.
 
@@ -115,11 +144,20 @@ Fraction liquide du sang recueillie avec citrate et obtenue après séparation d
 ### Ponction veineuse
 Introduction d'une aiguille dans une veine pour recueillir du sang ou réaliser un soin prescrit.
 
+### Prélèvement aseptique
+Recueil réalisé avec des précautions limitant l’introduction de micro-organismes étrangers dans l’échantillon ou le site prélevé.
+
 ### PvO₂
 Pression partielle de l'oxygène veineux, non interchangeable avec la PaO₂ artérielle pour évaluer l'oxygénation.
 
 ### Rapport sang-citrate
 Proportion de sang et d'anticoagulant dans le tube d'hémostase, habituellement 9 volumes de sang pour 1 de citrate.
+
+### Recueil urinaire des 24 heures
+Collecte de toutes les urines émises pendant une période de 24 heures, avec horaires de début et de fin respectés selon les consignes du laboratoire.
+
+### Renseignement clinique
+Information pertinente transmise au laboratoire pour guider la réalisation ou l’interprétation d’un examen, dans le respect du secret professionnel.
 
 ### Réticulocytes
 Globules rouges immatures ; leur mesure aide à explorer l'activité de production de la moelle osseuse.
@@ -171,6 +209,9 @@ Tube adapté à la mesure de la vitesse de sédimentation, selon la méthode et 
 
 ### Tubes d'immunohématologie
 Tubes choisis selon le laboratoire pour groupage ABO-Rh, recherche d'anticorps irréguliers et examens prétransfusionnels.
+
+### Urine de milieu de jet
+Échantillon recueilli après élimination du premier jet, selon les consignes données, afin de limiter la contamination du prélèvement urinaire.
 
 ### Volume de remplissage
 Volume de sang requis par le fabricant pour conserver les proportions et conditions d'analyse attendues.
