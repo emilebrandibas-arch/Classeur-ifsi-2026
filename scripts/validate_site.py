@@ -26,7 +26,7 @@ def problem(message):
 
 # Liens externes autorisés uniquement vers l'espace fichier Google Drive.
 # Le contenu PDF est enregistré dans Drive et ouvert dans un nouvel onglet du classeur.
-DRIVE_FILE_URL = re.compile(r"https://drive\\.google\\.com/file/d/(?P<id>[A-Za-z0-9_-]+)/view(?:\\?usp=drivesdk)?")
+DRIVE_FILE_URL = re.compile(r"https://drive\.google\.com/file/d/(?P<id>[A-Za-z0-9_-]+)/view(?:\?usp=drivesdk)?")
 
 
 def check_pdf(path, label):
