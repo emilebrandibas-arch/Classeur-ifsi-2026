@@ -5,6 +5,13 @@ https://emilebrandibas-arch.github.io/Classeur-ifsi-2026/
 
 Le classeur regroupe les cours A4, les fiches de révision A5 et le planning CM/TD, classés par UE et semestre.
 
+## Mise à jour UE B1 du 22 octobre 2026 — biochimie
+
+- Cours Dr Naimi : eau et Na⁺ ; K⁺ et ECG ; gaz du sang et pH ; rein et déchets azotés.
+- [Cours web complet](cours/UE_B1_CM_Biochimie_Homeostasie_2026.html) ; [cours PDF A4 (9 p.)](https://drive.google.com/file/d/1itz8f8NDEjXXqVKLTLh5seOTlrnzBBcE/view) ; [schémas A4 (6 p.)](https://drive.google.com/file/d/1fPZMkQ9kG5Dfjc87n_Kh3lpXcJkvtQYT/view) ; [fiches A5 (8 p.)](https://drive.google.com/file/d/175sjMKUrTDZpYa5Fh9e1zz_THbxHehlj/view).
+- Ancienne fiche A5 du 14 octobre remplacée dans l'index du classeur ; lexique UE B1 biochimie créé et lexique général enrichi ; sommaire actualisé.
+- Les PDF sont conservés dans le dossier Google Drive UE B1 ; les liens Drive peuvent dépendre des droits d'accès de chaque lecteur.
+
 ## Mise à jour UE B1 du 21 octobre 2026
 
 Trois PDF A4 ajoutés et classés : hématologie (4 p.), hémostase (4 p.), biologie cellulaire et moléculaire (5 p., provisoire). Fiches A5 existantes conservées ; lexique général enrichi et sommaire UE B1 révisé. Voir [sommaire UE B1](sommaires/UE_B1_S1_2026.md).
