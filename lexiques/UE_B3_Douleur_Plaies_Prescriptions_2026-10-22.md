@@ -7,6 +7,13 @@ Ce lexique accompagne les cours du 22/10/2026. Il aide à comprendre les termes 
 - **Allodynie** — Douleur provoquée par un stimulus normalement non douloureux, par exemple le contact d’un vêtement.
 - **Auto-évaluation de la douleur** — Évaluation décrite directement par la personne; à privilégier lorsque la personne peut comprendre et utiliser l’échelle choisie.
 - **Berges d’une plaie** — Bords de la perte de substance; leur rapprochement, leur décollement et leur état aident à décrire la plaie.
+
+- **Cisaillement** — Force tangentielle qui déforme les tissus lorsque la peau et les plans profonds glissent dans des directions différentes; il peut s’associer à la pression.
+- **Catégorie/stade d’escarre** — Repère décrivant les tissus visibles dans une lésion de pression. Les catégories 1 à 4, « non classable » et « lésion tissulaire profonde suspectée » ne servent pas à classer les autres plaies.
+- **Escarre (lésion de pression)** — Atteinte localisée de la peau et/ou des tissus sous-jacents, généralement sur une zone d’appui ou sous un dispositif, due à la pression seule ou associée au cisaillement.
+- **Escarre non classable** — Lésion de pression dont la profondeur ne peut pas être déterminée car elle est masquée par de la fibrine ou une escarre nécrotique.
+- **Lésion tissulaire profonde suspectée** — Lésion de pression évoquée par une décoloration persistante rouge sombre ou violacée, ou par une phlyctène sanguine; l’aspect doit être évalué dans son contexte.
+
 - **Détersion** — Élimination des tissus morts ou des débris d’une plaie selon indication, compétence et protocole.
 - **Douleur neuropathique** — Douleur liée à une lésion ou maladie du système somatosensoriel; peut être décrite comme brûlure, décharge ou fourmillement.
 - **Douleur nociceptive** — Douleur liée à l’activation des récepteurs périphériques lors d’une atteinte tissulaire; souvent somatique ou viscérale.
@@ -26,7 +33,7 @@ Ce lexique accompagne les cours du 22/10/2026. Il aide à comprendre les termes 
 ## Repères d’utilisation
 
 - Pour la douleur, privilégier l’auto-évaluation quand elle est possible; choisir une échelle adaptée et conserver le même outil au suivi. Si elle ne peut pas s’exprimer, observer de façon structurée avec une échelle adaptée, sans assimiler l’absence de plainte à l’absence de douleur.
-- Pour une plaie, décrire les tissus, les berges, l’exsudat et la peau péri-lésionnelle, puis comparer l’évolution. La détersion, le choix du pansement et les actes associés relèvent des indications, compétences et protocoles applicables.
+- Pour une plaie, décrire les tissus, les berges, l’exsudat et la peau péri-lésionnelle, puis comparer l’évolution. Réserver les catégories de pression aux lésions de pression; ne pas classer ainsi les plaies veineuses, artérielles ou diabétiques. La détersion, le choix du pansement et les actes associés relèvent des indications, compétences et protocoles applicables.
 - Pour un acte sur prescription, contrôler la prescription, le patient, le produit ou l’acte, les unités et les risques; si une donnée est incohérente ou manque, suspendre l’exécution et faire clarifier selon la procédure locale.
 
 ## Sources de référence
