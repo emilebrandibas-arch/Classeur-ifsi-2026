@@ -13,6 +13,8 @@ ROOT = Path(__file__).resolve().parents[1]
 LEGACY_PDFS = {
     "documents/1h5JkO09mN5twT9UhxHKNHBez4l0-WRJi.pdf",
     "documents/18i2dHVJnWukc-g9BphyYbMoplI30IlCO.pdf",
+    # Fiche B1 biochimie remplacée le 22/10/2026 (historique conservé).
+    "documents/1hzYCih4Maydho0szMrZLfdbyxAJSfjl-.pdf",
 }
 
 errors = []
@@ -22,7 +24,14 @@ def problem(message):
     errors.append(message)
 
 
+# Liens externes autorisés uniquement vers l'espace fichier Google Drive.
+# Le contenu PDF est enregistré dans Drive et ouvert dans un nouvel onglet du classeur.
+DRIVE_FILE_URL = re.compile(r"https://drive\\.google\\.com/file/d/(?P<id>[A-Za-z0-9_-]+)/view(?:\\?usp=drivesdk)?")
+
+
 def check_pdf(path, label):
+    if DRIVE_FILE_URL.fullmatch(path):
+        return
     path = path.removeprefix("./")
     if not path.startswith("documents/") or "/../" in path or "\\" in path:
         problem(f"{label}: chemin PDF non autorisé : {path}")
@@ -85,8 +94,14 @@ for item in records:
     if item.get("filePath"):
         check_pdf(item["filePath"], doc_id)
         pdf_count += 1
-        if doc_id.startswith("drive-") and Path(item["filePath"]).name != doc_id[6:] + ".pdf":
-            problem(f"{doc_id}: ID Drive et nom du PDF ne correspondent pas")
+        if doc_id.startswith("drive-"):
+            m = DRIVE_FILE_URL.fullmatch(item["filePath"])
+            path_id = m.group("id") if m else Path(item["filePath"]).stem
+            # L'identifiant logique de la fiche existante reste stable quand
+            # le PDF Drive est remplacé, pour éviter les doubles fiches.
+            original_id = item.get("supersededFileId")
+            if path_id != doc_id[6:] and original_id != doc_id[6:]:
+                problem(f"{doc_id}: ID Drive et nom du PDF ne correspondent pas")
     elif item.get("embeddedPdf"):
         try:
             pdf = base64.b64decode(item["embeddedPdf"], validate=True)
