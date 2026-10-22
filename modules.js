@@ -289,6 +289,28 @@
     ]
   }
 ];
+  // Ressources IFSI 2026 : prescription et cadre réglementaire infirmier.
+  // Fichiers conservés dans le dossier Google Drive « Juridique » du classeur.
+  lawSections.unshift({
+    heading: "Prescription infirmière — nouveau cadre 2025–2026",
+    links: [
+      ["Cours A4 — liste détaillée des prescriptions IDE (2026)",
+       "13 pages : médicaments, pansements, dispositifs, examens, limites, exemples et situations cliniques.",
+       "https://drive.google.com/file/d/15ffgMRJjcno1SYiOrF4iZwY-R4CwuQaO/view?usp=drivesdk"],
+      ["Fiches A5 paysage — prescriptions IDE (2026)",
+       "Deux pages à imprimer recto-verso sur bord court : familles, conditions de prescription, points à mémoriser.",
+       "https://drive.google.com/file/d/1R4pzK-ntGu3GeaZ5oGb88Ktee9l3tGzz/view?usp=drivesdk"],
+      ["Cours A4 — cadre réglementaire de la prescription (2025–2026)",
+       "Loi de juin 2025, décret de décembre 2025, arrêtés de juin 2026, explications et cas concrets.",
+       "https://drive.google.com/file/d/1gV-CLrLvgFQqueYxTS4RTsFISmLLnkT0/view?usp=drivesdk"],
+      ["Dossier de classement Google Drive — Juridique",
+       "Retrouver les trois PDF sources dans le même répertoire. Les droits Drive du lecteur peuvent conditionner l'ouverture.",
+       "https://drive.google.com/drive/folders/1IYnpcz_kn2LCelEJtlYJhKu0AiTpvMNY"],
+      ["Légifrance — arrêté du 26 juin 2026",
+       "Consulter la liste et les conditions réglementaires en vigueur : toujours vérifier les annexes et les mises à jour.",
+       "https://www.legifrance.gouv.fr/"],
+    ]
+  });
   lawSections.unshift({"heading":"UE A2 - VSS : textes expliqués simplement","links":[["Feuille A4 - les lois VSS en mots simples","PDF d'une page : 12 lois et articles expliqués avec des mots simples.","./documents/1pb88nvClHSulRS-yWXQY74VqQc5bQeKm.pdf"],["Cours A4 - violences sexistes et sexuelles","Synthèse progressive de l'UE A2, en 12 pages.","./documents/1YjVf65zm8MAA5luwSpoHTM7Z-PxpAa4X.pdf"],["Fiches A5 - VSS recto-verso","Quatre fiches à imprimer bord court, 8 pages.","./documents/1hdBgrf4qDtGgYaVsN2lxDhz44gbD2Hrw.pdf"],["Loi 2025-1057 et art. 222-22 CP","Consentement libre, éclairé, spécifique, préalable et révocable ; le silence ne vaut pas accord.","https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000052535583"],["Art. 222-23 à 222-23-2 CP","Viol, actes sur mineurs et viol incestueux : conditions distinctes selon âge, lien et circonstances.","https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000052535506"],["Art. 222-33 CP","Harcèlement sexuel : répétition de propos/comportements, ou pression grave unique pour obtenir un acte.","https://www.legifrance.gouv.fr/loda/article_lc/LEGIARTI000006417707"],["Loi 2026-798 du 18 août 2026 - art. 222-33-1-1","Outrage sexiste/sexuel aggravé : depuis le 20 août 2026, 2 mois d'emprisonnement et 3 750 euros d'amende.","https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000054724683"],["Art. 226-13 et 226-14 CP","Secret professionnel et cas stricts où une révélation est autorisée.","https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000049532171"],["Art. R4312-18 CSP","L'IDE protège la personne victime de sévices et alerte dans les conditions professionnelles prévues.","https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000033496783"],["Art. 223-6 CP","Assistance obligatoire à une personne en péril : agir ou faire intervenir les secours.","https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000037289588"],["Art. L1111-4 CSP","Information, consentement aux soins et respect du refus.","https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000054137430"],["Code civil art. 375 et CASF L226","Protection de l'enfance, information préoccupante et orientation vers la CRIP.","https://www.legifrance.gouv.fr/codes/texte_lc/LEGITEXT000006074069/"]]});
   function lawModule() {
     const content = lawSections.map(section =>
