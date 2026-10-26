@@ -7,8 +7,8 @@ Définitions de révision classées par ordre alphabétique. Toujours vérifier 
 - **Asepsie** — Mesures destinées à éviter l’introduction de micro-organismes lors d’un soin ou d’une préparation.
 - **Concentration** — Quantité de principe actif contenue dans un volume donné, par exemple en mg/mL.
 - **Débit de perfusion** — Volume administré par unité de temps ; peut être exprimé en mL/h ou en gouttes/min selon le dispositif.
-- **Dispositif médical (DM)** — Produit ayant une destination médicale dont l’action principale n’est pas pharmacologique, immunologique ou métabolique.
 - **Dilution** — Diminution de la concentration d’une solution par ajout d’un diluant, sans modifier la quantité de principe actif prélevée.
+- **Dispositif médical (DM)** — Produit ayant une destination médicale dont l’action principale n’est pas pharmacologique, immunologique ou métabolique.
 - **DMDIV** — Dispositif médical de diagnostic in vitro destiné à examiner des échantillons provenant du corps humain hors de celui-ci.
 - **Extravasation** — Fuite d’un produit administré par voie vasculaire vers les tissus environnants ; le risque dépend du produit et du contexte.
 - **Forme à libération prolongée (LP)** — Forme conçue pour libérer le principe actif sur une durée prolongée ; ne pas écraser ou ouvrir sans validation.
