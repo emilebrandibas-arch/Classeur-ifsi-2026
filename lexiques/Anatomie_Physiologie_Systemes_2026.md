@@ -1,0 +1,49 @@
+# Lexique transversal — Anatomie et physiologie — IFSI 2026–2029
+
+Mise à jour : 26 octobre 2026. Définitions pédagogiques synthétiques. Classement alphabétique ; 45 termes.
+
+- **Accommodation** : Ajustement de la focalisation de l’œil pour voir net.
+- **Acouphène** : Perception d’un son en l’absence de source extérieure.
+- **Adénopathie** : Augmentation de taille ou anomalie d’un ganglion lymphatique.
+- **Alvéole** : Unité terminale pulmonaire où ont lieu les échanges gazeux.
+- **Aménorrhée** : Absence de menstruations.
+- **Aphasie** : Trouble acquis du langage.
+- **Atrophie** : Diminution de volume d’un tissu.
+- **Débit cardiaque** : Volume de sang éjecté par le cœur chaque minute.
+- **DFG** : Débit de filtration glomérulaire estimant la fonction rénale.
+- **Diaphyse** : Segment central d’un os long.
+- **Dysurie** : Difficulté à uriner.
+- **Endomètre** : Muqueuse tapissant la cavité utérine.
+- **Épididyme** : Canal où mûrissent et sont stockés les spermatozoïdes.
+- **Érythème** : Rougeur inflammatoire cutanée.
+- **Escarre** : Lésion tissulaire localisée associée principalement à une pression ou à un cisaillement.
+- **Glycémie** : Concentration de glucose dans le sang.
+- **Hématopoïèse** : Formation des cellules sanguines.
+- **Hématurie** : Présence de sang dans les urines.
+- **Hémoglobine** : Protéine des globules rouges transportant l’oxygène.
+- **Hormone** : Messager chimique libéré et agissant sur des cellules cibles.
+- **Hypoacousie** : Diminution de l’audition.
+- **Hypoxémie** : Diminution de l’oxygénation du sang artériel.
+- **Ictère** : Coloration jaune des téguments due à l’accumulation de bilirubine.
+- **Immunité adaptative** : Réponse de défense spécifique avec mémoire.
+- **Lymphe** : Liquide circulant dans les vaisseaux lymphatiques.
+- **Macération** : Altération de la peau sous l’effet d’une humidité prolongée.
+- **Méléna** : Émission de selles noires goudronneuses pouvant traduire un saignement digestif.
+- **Myalgie** : Douleur musculaire.
+- **Mydriase** : Dilatation de la pupille.
+- **Myosis** : Contraction de la pupille.
+- **Nystagmus** : Mouvement rythmique involontaire des yeux.
+- **Oligurie** : Diminution du volume d’urines émises.
+- **Ostéoblaste** : Cellule formant la matrice osseuse.
+- **Ostéoclaste** : Cellule impliquée dans la résorption osseuse.
+- **Ovulation** : Libération d’un ovocyte par un ovaire.
+- **Paresthésie** : Sensation anormale telle que picotement ou fourmillement.
+- **Perfusion** : Apport de sang dans un territoire tissulaire.
+- **Péristaltisme** : Ondes de contraction propulsant le contenu du tube digestif.
+- **Rétrocontrôle** : Mécanisme par lequel une hormone module sa propre sécrétion.
+- **Rhabdomyolyse** : Destruction de fibres musculaires avec libération de constituants cellulaires.
+- **Spermatogenèse** : Production des spermatozoïdes.
+- **Synapse** : Zone où une cellule transmet un signal à une autre.
+- **Systole** : Phase de contraction et d’éjection ventriculaire.
+- **Thrombopénie** : Diminution du nombre de plaquettes sanguines.
+- **Ventilation** : Renouvellement de l’air dans les poumons.
