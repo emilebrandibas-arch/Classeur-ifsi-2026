@@ -7,7 +7,7 @@ Le classeur regroupe les cours A4, les fiches de révision A5 et le planning CM/
 
 ## Anatomie et physiologie — 26 octobre 2026
 
-Nouvelle [rubrique d'anatomie et physiologie](anatomie/index.html) : 15 systèmes, 15 fiches A4 paysage et 15 fiches A5 paysage ; [sommaire transversal](sommaires/Anatomie_Physiologie_2026.md) et [lexique spécialisé](lexiques/Anatomie_Physiologie_Systemes_2026.md). PDF imprimables conservés dans Google Drive. Les liens privés Drive peuvent requérir un accès.
+Nouvelle [rubrique d'anatomie et physiologie](anatomie/index.html) : 15 systèmes, 30 pages A4 paysage (2 par système) et 15 fiches A5 paysage ; [sommaire transversal](sommaires/Anatomie_Physiologie_2026.md) et [lexique spécialisé](lexiques/Anatomie_Physiologie_Systemes_2026.md). PDF imprimables conservés dans Google Drive. Les liens privés Drive peuvent requérir un accès.
 
 ## Mise à jour UE B1 du 22 octobre 2026 — biochimie
 
