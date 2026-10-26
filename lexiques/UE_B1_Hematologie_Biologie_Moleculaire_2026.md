@@ -1,5 +1,5 @@
 # Lexique UE B1 — Hématologie, hémostase et biologie cellulaire et moléculaire
-Actualisé le **21 octobre 2026** · Promotion IDE 2026–2029 · Semestre 1.
+Actualisé le **26 octobre 2026** · Promotion IDE 2026–2029 · Semestre 1.
 Définitions pédagogiques destinées aux cours du classeur ; vocabulaire classé par ordre alphabétique.
 
 **Anémie** — Diminution de l'hémoglobine sanguine sous le seuil adapté à l'âge, au sexe et au contexte ; rechercher signes cliniques et étiologie.
@@ -23,6 +23,10 @@ Définitions pédagogiques destinées aux cours du classeur ; vocabulaire class�
 **Diapédèse** — Passage d'un leucocyte du sang vers les tissus en traversant la paroi vasculaire.
 
 **Épissage** — Maturation d'un pré-ARN messager au cours de laquelle les introns sont retirés et les exons assemblés.
+
+**EPO (érythropoïétine)** — Hormone produite principalement par le rein lorsque l'oxygénation est insuffisante ; elle stimule la production des globules rouges par la moelle osseuse.
+
+**Érythrocyte (hématie)** — Globule rouge mature, cellule sans noyau contenant l'hémoglobine et assurant l'essentiel du transport de l'oxygène.
 
 **Érythropoïèse** — Production des globules rouges par la moelle osseuse, stimulée notamment par l'érythropoïétine.
 
@@ -63,6 +67,8 @@ Définitions pédagogiques destinées aux cours du classeur ; vocabulaire class�
 **Phagocytose** — Capture, internalisation et digestion d'une particule ou d'un micro-organisme par une cellule.
 
 **Plasmine** — Enzyme qui dégrade la fibrine au cours de la fibrinolyse ; dérive du plasminogène.
+
+**Plasmocyte** — Lymphocyte B différencié, spécialisé dans la production et la sécrétion d'anticorps.
 
 **Polynucléaire neutrophile (PNN)** — Leucocyte de l'immunité innée assurant surtout la phagocytose des bactéries et de nombreux champignons.
 
