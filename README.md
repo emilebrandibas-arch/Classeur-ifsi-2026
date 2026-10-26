@@ -5,6 +5,10 @@ https://emilebrandibas-arch.github.io/Classeur-ifsi-2026/
 
 Le classeur regroupe les cours A4, les fiches de révision A5 et le planning CM/TD, classés par UE et semestre.
 
+## Anatomie et physiologie — 26 octobre 2026
+
+Nouvelle [rubrique d'anatomie et physiologie](anatomie/index.html) : 15 systèmes, 15 fiches A4 paysage et 15 fiches A5 paysage ; [sommaire transversal](sommaires/Anatomie_Physiologie_2026.md) et [lexique spécialisé](lexiques/Anatomie_Physiologie_Systemes_2026.md). PDF imprimables conservés dans Google Drive. Les liens privés Drive peuvent requérir un accès.
+
 ## Mise à jour UE B1 du 22 octobre 2026 — biochimie
 
 - Cours Dr Naimi : eau et Na⁺ ; K⁺ et ECG ; gaz du sang et pH ; rein et déchets azotés.
