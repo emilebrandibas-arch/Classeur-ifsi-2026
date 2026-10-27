@@ -15,6 +15,11 @@ LEGACY_PDFS = {
     "documents/18i2dHVJnWukc-g9BphyYbMoplI30IlCO.pdf",
     # Fiche B1 biochimie remplacée le 22/10/2026 (historique conservé).
     "documents/1hzYCih4Maydho0szMrZLfdbyxAJSfjl-.pdf",
+    # Annexes hors classeur (conservées dans le dépôt, masquées de l’interface) — 27/10/2026.
+    "documents/1pb88nvClHSulRS-yWXQY74VqQc5bQeKm.pdf",
+    "documents/1OtDYQNB38gPBERTLRBKv3AIgqQIsdWU3.pdf",
+    "documents/IFSI_2026_Fiches_Manquants_B1-B2-B3_A5_Paysage.pdf",
+    "documents/IFSI_2026_Syntheses_Manquants_B1-B2-B3_A4_Portrait.pdf",
 }
 
 errors = []
