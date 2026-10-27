@@ -4,9 +4,9 @@
 
 ## Fichiers imprimables
 
-- [Recueil A4 portrait : 60 pages, 4 par système](https://drive.google.com/file/d/1IPNqksSMhNSPFkir2c8ljZNOwggaib_V/view?usp=drivesdk)
-- [Recueil A5 paysage : 30 pages, recto-verso par système](https://drive.google.com/file/d/1vBUwMayWg6On-EGSIc-wybZ4BfXZ4WcT/view?usp=drivesdk)
-- [ZIP : 30 PDF individuels A4 et A5, recueils complets](https://drive.google.com/file/d/1BbENYZgAjRPkAS8NXnj4XxtOS5vEUmLd/view?usp=drivesdk)
+- [Atlas schémas A4 portrait : 15 pages, une planche par système](https://drive.google.com/file/d/1yU5q8aFF9eGdDzRSRRujMgr1Yg-Ezsai/view?usp=drivesdk)
+- [Atlas schémas A5 paysage : 15 pages, une planche par système](https://drive.google.com/file/d/17VlCWTjBg3TV0kBH73zyBMOhzjK2gbhS/view?usp=drivesdk)
+- [ZIP : 30 PDF individuels A4/A5, 30 JPG et les recueils](https://drive.google.com/file/d/1p-HcVeuSX3Zm49zKZoJcdJf50yPs4jHf/view?usp=drivesdk)
 - [Dossier Google Drive](https://drive.google.com/drive/folders/1rTlKi1mnA3EdkZ5d3wGG6E4eaKBeRHkH)
 - [Page de la catégorie](../anatomie/index.html)
 
