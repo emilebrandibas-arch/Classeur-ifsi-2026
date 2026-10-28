@@ -1,36 +1,59 @@
 # Lexique transversal — Anatomie et physiologie — IFSI 2026–2029
 
-Mise à jour : 28 octobre 2026. Définitions pédagogiques synthétiques. Classement alphabétique ; 100 termes.
+Mise à jour : 28 octobre 2026. Définitions pédagogiques synthétiques. Classement alphabétique ; 138 termes.
 - **Accommodation** : Ajustement de la focalisation de l’œil pour voir net.
 - **Acouphène** : Perception d’un son en l’absence de source extérieure.
 - **Adénopathie** : Augmentation de taille ou anomalie d’un ganglion lymphatique.
 - **Alvéole** : Unité terminale pulmonaire où ont lieu les échanges gazeux.
 - **Aménorrhée** : Absence de menstruations.
 - **Angiotensine II** : Peptide du SRAA induisant une vasoconstriction et stimulant la sécrétion d’aldostérone.
+- **Anhydrose** : Absence ou diminution majeure de la transpiration.
+- **Annexe cutanée** : Structure spécialisée associée à la peau, par exemple poil, ongle ou glande.
 - **Aorte** : Principale artère sortant du ventricule gauche pour distribuer le sang au corps.
 - **Aphasie** : Trouble acquis du langage.
+- **Apocrine (glande)** : Glande cutanée sécrétant dans un follicule pileux, notamment dans les régions axillaires.
 - **Artère** : Vaisseau conduisant le sang à partir du cœur, quel que soit son niveau d'oxygénation.
 - **Artère pulmonaire** : Artère transportant du sang peu oxygéné du ventricule droit vers les poumons.
 - **Atrophie** : Diminution de volume d’un tissu.
+- **Avasculaire** : Qui ne possède pas de vaisseaux sanguins.
 - **Barorécepteur** : Récepteur détectant l'étirement vasculaire et participant à la régulation rapide de la pression artérielle.
+- **Barrière cutanée** : Fonction protectrice de la peau limitant pénétration des agents extérieurs et pertes d'eau.
+- **Brûlure du 1er degré** : Atteinte superficielle de l'épiderme entraînant une rougeur douloureuse sans phlyctène.
+- **Brûlure du 2e degré profond** : Atteinte dermique profonde, souvent pâle et moins sensible, nécessitant un avis spécialisé.
+- **Brûlure du 2e degré superficiel** : Atteinte partielle du derme, avec phlyctènes et fond rouge ou rose humide douloureux.
+- **Brûlure du 3e degré** : Destruction de toute l'épaisseur cutanée, avec zone sèche, blanchâtre, brunâtre ou noire, souvent insensible.
 - **Canaux semi-circulaires** : Trois conduits de l'oreille interne qui détectent les rotations de la tête grâce au déplacement de l'endolymphe.
 - **Capillaire sanguin** : Vaisseau microscopique permettant les échanges d'eau, de gaz et de solutés avec les tissus.
+- **Cellule de Langerhans** : Cellule immunitaire épidermique participant à la présentation d'antigènes.
+- **Cellule de Merkel** : Cellule cutanée associée à la perception du toucher fin.
 - **Circulation pulmonaire** : Circulation du ventricule droit aux poumons puis vers l'oreillette gauche.
 - **Circulation systémique** : Circulation du ventricule gauche vers les organes puis vers l'oreillette droite.
 - **Commotion cérébrale** : Forme de traumatisme crânien léger provoquant une perturbation transitoire du fonctionnement cérébral, sans lésion nécessairement visible à l'imagerie.
 - **Commotion labyrinthique** : Perturbation de l'oreille interne après un choc crânien, pouvant entraîner vertiges et troubles de l'équilibre sans fracture visible.
+- **Cornéocyte** : Cellule kératinisée terminale, dépourvue de noyau, constituant la couche cornée.
+- **Couche basale** : Couche profonde de l'épiderme assurant son renouvellement cellulaire.
+- **Couche cornée** : Couche la plus superficielle de l'épiderme formée de cornéocytes.
+- **Couche épineuse** : Couche épidermique riche en kératinocytes reliés par des desmosomes.
+- **Couche granuleuse** : Couche épidermique où les kératinocytes poursuivent leur kératinisation.
 - **Débit cardiaque** : Volume de sang éjecté par le cœur chaque minute.
+- **Desmosome** : Jonction intercellulaire assurant la cohésion mécanique des épithéliums.
 - **DFG** : Débit de filtration glomérulaire estimant la fonction rénale.
 - **Diaphyse** : Segment central d’un os long.
 - **Diastole** : Phase de relâchement et de remplissage ventriculaire.
 - **Dysautonomie post-commotionnelle** : Dysfonctionnement possible du système nerveux autonome après une commotion, associé par exemple à une intolérance à la station debout ou des variations de fréquence cardiaque.
+- **Dyschromie** : Modification de la coloration habituelle de la peau.
 - **Dysurie** : Difficulté à uriner.
+- **Eccrine (glande)** : Glande sudoripare sécrétant une sueur aqueuse impliquée dans la thermorégulation.
 - **Endomètre** : Muqueuse tapissant la cavité utérine.
 - **Épididyme** : Canal où mûrissent et sont stockés les spermatozoïdes.
+- **Épithélium pavimenteux stratifié kératinisé** : Tissu de cellules aplaties réparties en plusieurs couches, dont la surface se kératinise.
 - **Érythème** : Rougeur inflammatoire cutanée.
 - **Escarre** : Lésion tissulaire localisée associée principalement à une pression ou à un cisaillement.
+- **Exsudat** : Liquide produit au niveau d'une lésion ou d'une plaie, issu notamment des tissus et vaisseaux.
+- **Follicule pileux** : Invagination cutanée où se forme et s'ancre le poil.
 - **Fracture du rocher** : Fracture de la partie pétreuse de l'os temporal, pouvant léser les structures auditives, vestibulaires ou le nerf facial.
 - **Ganglion lymphatique** : Petit organe filtre du réseau lymphatique où des cellules immunitaires participent à la réponse aux antigènes.
+- **Glande sébacée** : Glande qui sécrète le sébum dans un follicule pileux.
 - **Glycémie** : Concentration de glucose dans le sang.
 - **Hématome épidural** : Collection de sang entre la face interne du crâne et la dure-mère, souvent liée à un traumatisme ; urgence neurochirurgicale potentielle.
 - **Hématome sous-dural** : Collection de sang entre la dure-mère et l'arachnoïde, pouvant être aiguë ou chronique, notamment après un traumatisme.
@@ -42,10 +65,13 @@ Mise à jour : 28 octobre 2026. Définitions pédagogiques synthétiques. Classe
 - **Hypoacousie** : Diminution de l’audition.
 - **Hypoperfusion** : Apport sanguin insuffisant à un tissu ou à un organe pour répondre à ses besoins métaboliques.
 - **Hypoperfusion cérébrale** : Diminution de l'apport de sang au cerveau pouvant provoquer étourdissement, malaise ou altération de la conscience.
+- **Hypothalamus** : Région cérébrale participant notamment à la régulation de la température corporelle.
 - **Hypoxémie** : Diminution de l’oxygénation du sang artériel.
 - **Ictère** : Coloration jaune des téguments due à l’accumulation de bilirubine.
 - **Immunité adaptative** : Réponse de défense spécifique avec mémoire.
 - **Intolérance orthostatique** : Survenue de symptômes lors du passage en position debout, soulagés par le décubitus ; peut exister avec ou sans hypotension orthostatique mesurée.
+- **Kératinisation** : Transformation progressive des kératinocytes en cellules cornées riches en kératine.
+- **Kératinocyte** : Cellule principale de l'épiderme qui participe à sa structure et à la barrière cutanée.
 - **Lymphangite** : Inflammation d'un vaisseau lymphatique, souvent infectieuse ; peut se manifester par une traînée rouge douloureuse et de la fièvre.
 - **Lymphe** : Liquide circulant dans les vaisseaux lymphatiques.
 - **Lymphocyte B** : Cellule immunitaire de l'immunité adaptative pouvant se différencier en plasmocyte producteur d'anticorps.
@@ -54,6 +80,9 @@ Mise à jour : 28 octobre 2026. Définitions pédagogiques synthétiques. Classe
 - **Macération** : Altération de la peau sous l’effet d’une humidité prolongée.
 - **Macrophage** : Cellule immunitaire capable de phagocyter des microbes et débris, et de participer à la présentation d'antigènes.
 - **Malaise vagal** : Malaise lié à une réaction réflexe vasovagale avec baisse de la pression artérielle et parfois de la fréquence cardiaque ; peut aller jusqu'à la syncope.
+- **Mélanine** : Pigment produit par les mélanocytes participant à la pigmentation et à la photoprotection.
+- **Mélanocyte** : Cellule de l'épiderme synthétisant la mélanine.
+- **Mélanosome** : Organite transportant la mélanine du mélanocyte vers les kératinocytes.
 - **Méléna** : Émission de selles noires goudronneuses pouvant traduire un saignement digestif.
 - **Myalgie** : Douleur musculaire.
 - **Mydriase** : Dilatation de la pupille.
@@ -69,18 +98,24 @@ Mise à jour : 28 octobre 2026. Définitions pédagogiques synthétiques. Classe
 - **Paresthésie** : Sensation anormale telle que picotement ou fourmillement.
 - **Perfusion** : Apport de sang dans un territoire tissulaire.
 - **Péristaltisme** : Ondes de contraction propulsant le contenu du tube digestif.
+- **Phlyctène** : Bulle cutanée contenant du liquide, fréquente dans les brûlures du 2e degré.
 - **Pression artérielle** : Pression exercée par le sang sur la paroi des artères, exprimée en mmHg par ses valeurs systolique et diastolique.
 - **Pression artérielle diastolique (PAD)** : Pression artérielle minimale pendant un cycle cardiaque.
 - **Pression artérielle moyenne (PAM)** : Pression moyenne sur le cycle cardiaque ; estimation au repos (PAS + 2 × PAD) / 3.
 - **Pression artérielle systolique (PAS)** : Pression artérielle maximale pendant un cycle cardiaque.
 - **Pupilles** : Ouvertures au centre des iris ; taille, symétrie et réactivité à la lumière sont des paramètres de surveillance neurologique.
 - **Rate** : Organe lymphoïde qui filtre le sang, participe à la réponse immunitaire et à l'élimination de cellules sanguines âgées.
+- **Règle des neuf de Wallace** : Méthode d'estimation rapide de la surface brûlée chez l'adulte par régions corporelles en multiples de 9 %.
 - **Rénine** : Enzyme libérée par le rein, notamment quand sa perfusion baisse, initiant le SRAA.
 - **Rétrocontrôle** : Mécanisme par lequel une hormone module sa propre sécrétion.
 - **Rhabdomyolyse** : Destruction de fibres musculaires avec libération de constituants cellulaires.
+- **SCB** : Surface corporelle brûlée, généralement exprimée en pourcentage de la surface du corps, pour les brûlures du 2e et du 3e degré.
 - **Score de Glasgow (GCS)** : Échelle de conscience cotée de 3 à 15 à partir des réponses oculaire, verbale et motrice ; l'interprétation est adaptée à l'âge et au contexte.
+- **Sébum** : Sécrétion lipidique qui lubrifie poils et peau et contribue à la protection cutanée.
 - **Spermatogenèse** : Production des spermatozoïdes.
 - **SRAA** : Système rénine–angiotensine–aldostérone, régulant le tonus vasculaire et la rétention hydrosodée.
+- **Stratum lucidum** : Couche épidermique claire surtout présente dans la peau épaisse des paumes et des plantes.
+- **Sudation** : Production et émission de sueur par les glandes sudoripares.
 - **Synapse** : Zone où une cellule transmet un signal à une autre.
 - **Système glymphatique** : Voie de circulation et d'élimination de solutés dans le cerveau, liée aux espaces périvasculaires et aux cellules gliales ; distincte du réseau lymphatique classique.
 - **Système lymphatique** : Réseau de vaisseaux, ganglions et organes qui draine le liquide interstitiel et participe aux défenses immunitaires.
@@ -89,13 +124,16 @@ Mise à jour : 28 octobre 2026. Définitions pédagogiques synthétiques. Classe
 - **Systole** : Phase de contraction et d’éjection ventriculaire.
 - **Thrombopénie** : Diminution du nombre de plaquettes sanguines.
 - **Thymus** : Organe lymphoïde primaire où mûrissent et sont sélectionnés les lymphocytes T.
+- **TRC** : Temps de recoloration cutanée, élément d'appréciation de la perfusion périphérique.
 - **Vaisseau lymphatique** : Conduit transportant la lymphe des tissus vers la circulation veineuse, avec des valvules favorisant le flux.
 - **Valve aortique** : Valve semi-lunaire entre le ventricule gauche et l'aorte.
 - **Valve mitrale** : Valve atrioventriculaire gauche, normalement à deux feuillets.
 - **Valve pulmonaire** : Valve semi-lunaire entre le ventricule droit et le tronc pulmonaire.
 - **Valve tricuspide** : Valve atrioventriculaire droite, normalement à trois feuillets.
 - **Vasoconstriction** : Réduction du diamètre d'un vaisseau par contraction de sa paroi musculaire ; peut augmenter la résistance vasculaire.
+- **Vasoconstriction cutanée** : Diminution du calibre des vaisseaux cutanés, limitant les pertes de chaleur.
 - **Vasodilatation** : Augmentation du diamètre d'un vaisseau par relâchement de sa paroi musculaire ; peut diminuer la résistance vasculaire.
+- **Vasodilatation cutanée** : Augmentation du calibre des vaisseaux cutanés, favorisant les échanges thermiques.
 - **Veine** : Vaisseau ramenant le sang au cœur, avec une paroi musculaire plus fine que celle des artères.
 - **Veine pulmonaire** : Veine ramenant le sang oxygéné des poumons vers l'oreillette gauche.
 - **Ventilation** : Renouvellement de l’air dans les poumons.
