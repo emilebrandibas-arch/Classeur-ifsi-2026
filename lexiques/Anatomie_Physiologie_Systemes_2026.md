@@ -1,6 +1,6 @@
 # Lexique transversal — Anatomie et physiologie — IFSI 2026–2029
 
-Mise à jour : 26 octobre 2026. Définitions pédagogiques synthétiques. Classement alphabétique ; 45 termes.
+Mise à jour : 28 octobre 2026. Définitions pédagogiques synthétiques. Classement alphabétique ; 77 termes.
 
 - **Accommodation** : Ajustement de la focalisation de l’œil pour voir net.
 - **Acouphène** : Perception d’un son en l’absence de source extérieure.
@@ -9,25 +9,43 @@ Mise à jour : 26 octobre 2026. Définitions pédagogiques synthétiques. Classe
 - **Aménorrhée** : Absence de menstruations.
 - **Aphasie** : Trouble acquis du langage.
 - **Atrophie** : Diminution de volume d’un tissu.
+- **Canaux semi-circulaires** : Trois conduits de l'oreille interne qui détectent les rotations de la tête grâce au déplacement de l'endolymphe.
+- **Commotion cérébrale** : Forme de traumatisme crânien léger provoquant une perturbation transitoire du fonctionnement cérébral, sans lésion nécessairement visible à l'imagerie.
+- **Commotion labyrinthique** : Perturbation de l'oreille interne après un choc crânien, pouvant entraîner vertiges et troubles de l'équilibre sans fracture visible.
 - **Débit cardiaque** : Volume de sang éjecté par le cœur chaque minute.
 - **DFG** : Débit de filtration glomérulaire estimant la fonction rénale.
 - **Diaphyse** : Segment central d’un os long.
+- **Dysautonomie post-commotionnelle** : Dysfonctionnement possible du système nerveux autonome après une commotion, associé par exemple à une intolérance à la station debout ou des variations de fréquence cardiaque.
 - **Dysurie** : Difficulté à uriner.
 - **Endomètre** : Muqueuse tapissant la cavité utérine.
 - **Épididyme** : Canal où mûrissent et sont stockés les spermatozoïdes.
 - **Érythème** : Rougeur inflammatoire cutanée.
 - **Escarre** : Lésion tissulaire localisée associée principalement à une pression ou à un cisaillement.
+- **Fracture du rocher** : Fracture de la partie pétreuse de l'os temporal, pouvant léser les structures auditives, vestibulaires ou le nerf facial.
+- **Ganglion lymphatique** : Petit organe filtre du réseau lymphatique où des cellules immunitaires participent à la réponse aux antigènes.
 - **Glycémie** : Concentration de glucose dans le sang.
+- **Hématome épidural** : Collection de sang entre la face interne du crâne et la dure-mère, souvent liée à un traumatisme ; urgence neurochirurgicale potentielle.
+- **Hématome sous-dural** : Collection de sang entre la dure-mère et l'arachnoïde, pouvant être aiguë ou chronique, notamment après un traumatisme.
 - **Hématopoïèse** : Formation des cellules sanguines.
 - **Hématurie** : Présence de sang dans les urines.
 - **Hémoglobine** : Protéine des globules rouges transportant l’oxygène.
+- **Hémorragie intracrânienne** : Saignement à l'intérieur du crâne, dans les méninges ou le tissu cérébral ; peut entraîner une dégradation neurologique.
 - **Hormone** : Messager chimique libéré et agissant sur des cellules cibles.
 - **Hypoacousie** : Diminution de l’audition.
+- **Hypoperfusion** : Apport sanguin insuffisant à un tissu ou à un organe pour répondre à ses besoins métaboliques.
+- **Hypoperfusion cérébrale** : Diminution de l'apport de sang au cerveau pouvant provoquer étourdissement, malaise ou altération de la conscience.
 - **Hypoxémie** : Diminution de l’oxygénation du sang artériel.
 - **Ictère** : Coloration jaune des téguments due à l’accumulation de bilirubine.
 - **Immunité adaptative** : Réponse de défense spécifique avec mémoire.
+- **Intolérance orthostatique** : Survenue de symptômes lors du passage en position debout, soulagés par le décubitus ; peut exister avec ou sans hypotension orthostatique mesurée.
+- **Lymphangite** : Inflammation d'un vaisseau lymphatique, souvent infectieuse ; peut se manifester par une traînée rouge douloureuse et de la fièvre.
 - **Lymphe** : Liquide circulant dans les vaisseaux lymphatiques.
+- **Lymphocyte B** : Cellule immunitaire de l'immunité adaptative pouvant se différencier en plasmocyte producteur d'anticorps.
+- **Lymphocyte T** : Cellule immunitaire de l'immunité adaptative intervenant dans la régulation de la réponse ou la destruction de cellules cibles.
+- **Lymphœdème** : Gonflement lié à l'accumulation de liquide lymphatique dans les tissus à cause d'un défaut de drainage lymphatique.
 - **Macération** : Altération de la peau sous l’effet d’une humidité prolongée.
+- **Macrophage** : Cellule immunitaire capable de phagocyter des microbes et débris, et de participer à la présentation d'antigènes.
+- **Malaise vagal** : Malaise lié à une réaction réflexe vasovagale avec baisse de la pression artérielle et parfois de la fréquence cardiaque ; peut aller jusqu'à la syncope.
 - **Méléna** : Émission de selles noires goudronneuses pouvant traduire un saignement digestif.
 - **Myalgie** : Douleur musculaire.
 - **Mydriase** : Dilatation de la pupille.
@@ -36,14 +54,28 @@ Mise à jour : 26 octobre 2026. Définitions pédagogiques synthétiques. Classe
 - **Oligurie** : Diminution du volume d’urines émises.
 - **Ostéoblaste** : Cellule formant la matrice osseuse.
 - **Ostéoclaste** : Cellule impliquée dans la résorption osseuse.
+- **Otoconies** : Petits cristaux de carbonate de calcium de l'oreille interne ; leur déplacement dans un canal semi-circulaire peut provoquer un VPPB.
 - **Ovulation** : Libération d’un ovocyte par un ovaire.
 - **Paresthésie** : Sensation anormale telle que picotement ou fourmillement.
 - **Perfusion** : Apport de sang dans un territoire tissulaire.
 - **Péristaltisme** : Ondes de contraction propulsant le contenu du tube digestif.
+- **Pression artérielle** : Pression exercée par le sang sur la paroi des artères, exprimée en mmHg par ses valeurs systolique et diastolique.
+- **Pupilles** : Ouvertures au centre des iris ; taille, symétrie et réactivité à la lumière sont des paramètres de surveillance neurologique.
+- **Rate** : Organe lymphoïde qui filtre le sang, participe à la réponse immunitaire et à l'élimination de cellules sanguines âgées.
 - **Rétrocontrôle** : Mécanisme par lequel une hormone module sa propre sécrétion.
 - **Rhabdomyolyse** : Destruction de fibres musculaires avec libération de constituants cellulaires.
+- **Score de Glasgow (GCS)** : Échelle de conscience cotée de 3 à 15 à partir des réponses oculaire, verbale et motrice ; l'interprétation est adaptée à l'âge et au contexte.
 - **Spermatogenèse** : Production des spermatozoïdes.
 - **Synapse** : Zone où une cellule transmet un signal à une autre.
+- **Système glymphatique** : Voie de circulation et d'élimination de solutés dans le cerveau, liée aux espaces périvasculaires et aux cellules gliales ; distincte du réseau lymphatique classique.
+- **Système lymphatique** : Réseau de vaisseaux, ganglions et organes qui draine le liquide interstitiel et participe aux défenses immunitaires.
+- **Système nerveux autonome** : Partie du système nerveux régulant les fonctions involontaires, notamment rythme cardiaque, tonus vasculaire et digestion.
+- **Système vestibulaire** : Ensemble des récepteurs de l'oreille interne et des voies nerveuses participant à l'équilibre et à la stabilisation du regard.
 - **Systole** : Phase de contraction et d’éjection ventriculaire.
 - **Thrombopénie** : Diminution du nombre de plaquettes sanguines.
+- **Thymus** : Organe lymphoïde primaire où mûrissent et sont sélectionnés les lymphocytes T.
+- **Vaisseau lymphatique** : Conduit transportant la lymphe des tissus vers la circulation veineuse, avec des valvules favorisant le flux.
+- **Vasoconstriction** : Réduction du diamètre d'un vaisseau par contraction de sa paroi musculaire ; peut augmenter la résistance vasculaire.
+- **Vasodilatation** : Augmentation du diamètre d'un vaisseau par relâchement de sa paroi musculaire ; peut diminuer la résistance vasculaire.
 - **Ventilation** : Renouvellement de l’air dans les poumons.
+- **VPPB (vertige positionnel paroxystique bénin)** : Vertiges brefs déclenchés par certains mouvements de tête, généralement liés au déplacement d'otoconies dans un canal semi-circulaire.
