@@ -13,6 +13,9 @@ ROOT = Path(__file__).resolve().parents[1]
 LEGACY_PDFS = {
     "documents/1h5JkO09mN5twT9UhxHKNHBez4l0-WRJi.pdf",
     "documents/18i2dHVJnWukc-g9BphyYbMoplI30IlCO.pdf",
+    # Versions B1 tégumentaire du 22/10 archivées après cours capsule complet du 28/10.
+    "documents/1xiYcF8iCGhoBSBfgLuQg5FoBewtamuif.pdf",
+    "documents/1MFs8eta96raHfPQOLoYIN268tj7Sxurg.pdf",
     # Fiche B1 biochimie remplacée le 22/10/2026 (historique conservé).
     "documents/1hzYCih4Maydho0szMrZLfdbyxAJSfjl-.pdf",
     # Annexes hors classeur (conservées dans le dépôt, masquées de l’interface) — 27/10/2026.
