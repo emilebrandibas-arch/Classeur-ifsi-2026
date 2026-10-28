@@ -41,7 +41,7 @@ def check_pdf(path, label):
     if DRIVE_FILE_URL.fullmatch(path):
         return
     path = path.removeprefix("./")
-    if not path.startswith("documents/") or "/../" in path or "\\" in path:
+    if not path.startswith(("documents/", "cartes-mentales/")) or "/../" in path or "\\" in path:
         problem(f"{label}: chemin PDF non autorisé : {path}")
         return
     target = (ROOT / path).resolve()
@@ -126,7 +126,7 @@ published = {
     for item in records
     if isinstance(item, dict) and item.get("filePath") and not item.get("archived")
 }
-for pdf in (ROOT / "documents").glob("*.pdf"):
+for pdf in list((ROOT / "documents").glob("*.pdf")) + list((ROOT / "cartes-mentales").glob("*.pdf")):
     rel = pdf.relative_to(ROOT).as_posix()
     if rel not in published and rel not in LEGACY_PDFS:
         problem(f"PDF GitHub non classé dans le sommaire : {rel}")
