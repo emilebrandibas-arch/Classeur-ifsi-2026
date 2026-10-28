@@ -46,3 +46,11 @@ Ce lexique accompagne les cours du 22/10/2026. Il aide à comprendre les termes 
 - [IWII — Wound Infection in Clinical Practice, consensus 2022](https://woundinfection-institute.com/wp-content/uploads/IWII-CD-2022-web-1.pdf)
 - [Référentiel infirmier 2026 — Légifrance](https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000053568913)
 - Vérifier les textes consolidés et protocoles applicables à la date du soin.
+
+## Complément transversal B1/B3 — brûlures
+- **Brûlure du 2e degré** — Lésion cutanée présentant une atteinte dermique partielle, avec phlyctènes possibles.
+- **Brûlure du 3e degré** — Lésion détruisant toute l'épaisseur de la peau et nécessitant une évaluation spécialisée.
+- **Exsudat de brûlure** — Liquide issu d'une zone brûlée pouvant contenir eau, électrolytes et protéines.
+- **Phlyctène** — Bulle cutanée remplie de liquide ; ne pas percer lors des premiers secours.
+
+Voir le cours UE B1 : anatomie de la peau et classification des brûlures (28 octobre 2026).
