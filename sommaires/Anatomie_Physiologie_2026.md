@@ -10,6 +10,12 @@
 - [Dossier Google Drive](https://drive.google.com/drive/folders/1rTlKi1mnA3EdkZ5d3wGG6E4eaKBeRHkH)
 - [Page de la catégorie](../anatomie/index.html)
 
+
+## Capsule UE B1 — Appareil cardiovasculaire (Dr Dandrea)
+- Reçue par mail de Mme Béal le 28/10/2026 ; synthèse corrigée du cours envoyé par WeTransfer, non déposé sur Moodle.
+- [Cours A4 — 6 pages](../documents/UE_B1_Capsule_Dr_Dandrea_Cardiovasculaire_Cours_A4_2026-10-28.pdf) · [Fiche A5 paysage recto-verso — 2 pages](../documents/UE_B1_Capsule_Dr_Dandrea_Cardiovasculaire_Fiche_A5_RV_2026-10-28.pdf) · [Lexique](../lexiques/UE_B1_Cardiovasculaire_2026.md).
+- Capsule distincte de l'atlas : numéro de CM non communiqué.
+
 ## Répertoire des fiches
 - **01 — Appareil cardiovasculaire** : Cœur : 4 cavités, valves, grande et petite circulation.
 - **02 — Appareil respiratoire** : Voies aériennes, bronchioles, alvéoles et diaphragme.

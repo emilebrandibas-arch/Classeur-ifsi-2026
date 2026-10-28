@@ -1,20 +1,28 @@
 # Lexique transversal — Anatomie et physiologie — IFSI 2026–2029
 
-Mise à jour : 28 octobre 2026. Définitions pédagogiques synthétiques. Classement alphabétique ; 77 termes.
-
+Mise à jour : 28 octobre 2026. Définitions pédagogiques synthétiques. Classement alphabétique ; 100 termes.
 - **Accommodation** : Ajustement de la focalisation de l’œil pour voir net.
 - **Acouphène** : Perception d’un son en l’absence de source extérieure.
 - **Adénopathie** : Augmentation de taille ou anomalie d’un ganglion lymphatique.
 - **Alvéole** : Unité terminale pulmonaire où ont lieu les échanges gazeux.
 - **Aménorrhée** : Absence de menstruations.
+- **Angiotensine II** : Peptide du SRAA induisant une vasoconstriction et stimulant la sécrétion d’aldostérone.
+- **Aorte** : Principale artère sortant du ventricule gauche pour distribuer le sang au corps.
 - **Aphasie** : Trouble acquis du langage.
+- **Artère** : Vaisseau conduisant le sang à partir du cœur, quel que soit son niveau d'oxygénation.
+- **Artère pulmonaire** : Artère transportant du sang peu oxygéné du ventricule droit vers les poumons.
 - **Atrophie** : Diminution de volume d’un tissu.
+- **Barorécepteur** : Récepteur détectant l'étirement vasculaire et participant à la régulation rapide de la pression artérielle.
 - **Canaux semi-circulaires** : Trois conduits de l'oreille interne qui détectent les rotations de la tête grâce au déplacement de l'endolymphe.
+- **Capillaire sanguin** : Vaisseau microscopique permettant les échanges d'eau, de gaz et de solutés avec les tissus.
+- **Circulation pulmonaire** : Circulation du ventricule droit aux poumons puis vers l'oreillette gauche.
+- **Circulation systémique** : Circulation du ventricule gauche vers les organes puis vers l'oreillette droite.
 - **Commotion cérébrale** : Forme de traumatisme crânien léger provoquant une perturbation transitoire du fonctionnement cérébral, sans lésion nécessairement visible à l'imagerie.
 - **Commotion labyrinthique** : Perturbation de l'oreille interne après un choc crânien, pouvant entraîner vertiges et troubles de l'équilibre sans fracture visible.
 - **Débit cardiaque** : Volume de sang éjecté par le cœur chaque minute.
 - **DFG** : Débit de filtration glomérulaire estimant la fonction rénale.
 - **Diaphyse** : Segment central d’un os long.
+- **Diastole** : Phase de relâchement et de remplissage ventriculaire.
 - **Dysautonomie post-commotionnelle** : Dysfonctionnement possible du système nerveux autonome après une commotion, associé par exemple à une intolérance à la station debout ou des variations de fréquence cardiaque.
 - **Dysurie** : Difficulté à uriner.
 - **Endomètre** : Muqueuse tapissant la cavité utérine.
@@ -49,9 +57,11 @@ Mise à jour : 28 octobre 2026. Définitions pédagogiques synthétiques. Classe
 - **Méléna** : Émission de selles noires goudronneuses pouvant traduire un saignement digestif.
 - **Myalgie** : Douleur musculaire.
 - **Mydriase** : Dilatation de la pupille.
+- **Myocarde** : Muscle constituant la paroi du cœur.
 - **Myosis** : Contraction de la pupille.
 - **Nystagmus** : Mouvement rythmique involontaire des yeux.
 - **Oligurie** : Diminution du volume d’urines émises.
+- **Oreillette (atrium)** : Cavité du cœur recevant le sang du retour veineux.
 - **Ostéoblaste** : Cellule formant la matrice osseuse.
 - **Ostéoclaste** : Cellule impliquée dans la résorption osseuse.
 - **Otoconies** : Petits cristaux de carbonate de calcium de l'oreille interne ; leur déplacement dans un canal semi-circulaire peut provoquer un VPPB.
@@ -60,12 +70,17 @@ Mise à jour : 28 octobre 2026. Définitions pédagogiques synthétiques. Classe
 - **Perfusion** : Apport de sang dans un territoire tissulaire.
 - **Péristaltisme** : Ondes de contraction propulsant le contenu du tube digestif.
 - **Pression artérielle** : Pression exercée par le sang sur la paroi des artères, exprimée en mmHg par ses valeurs systolique et diastolique.
+- **Pression artérielle diastolique (PAD)** : Pression artérielle minimale pendant un cycle cardiaque.
+- **Pression artérielle moyenne (PAM)** : Pression moyenne sur le cycle cardiaque ; estimation au repos (PAS + 2 × PAD) / 3.
+- **Pression artérielle systolique (PAS)** : Pression artérielle maximale pendant un cycle cardiaque.
 - **Pupilles** : Ouvertures au centre des iris ; taille, symétrie et réactivité à la lumière sont des paramètres de surveillance neurologique.
 - **Rate** : Organe lymphoïde qui filtre le sang, participe à la réponse immunitaire et à l'élimination de cellules sanguines âgées.
+- **Rénine** : Enzyme libérée par le rein, notamment quand sa perfusion baisse, initiant le SRAA.
 - **Rétrocontrôle** : Mécanisme par lequel une hormone module sa propre sécrétion.
 - **Rhabdomyolyse** : Destruction de fibres musculaires avec libération de constituants cellulaires.
 - **Score de Glasgow (GCS)** : Échelle de conscience cotée de 3 à 15 à partir des réponses oculaire, verbale et motrice ; l'interprétation est adaptée à l'âge et au contexte.
 - **Spermatogenèse** : Production des spermatozoïdes.
+- **SRAA** : Système rénine–angiotensine–aldostérone, régulant le tonus vasculaire et la rétention hydrosodée.
 - **Synapse** : Zone où une cellule transmet un signal à une autre.
 - **Système glymphatique** : Voie de circulation et d'élimination de solutés dans le cerveau, liée aux espaces périvasculaires et aux cellules gliales ; distincte du réseau lymphatique classique.
 - **Système lymphatique** : Réseau de vaisseaux, ganglions et organes qui draine le liquide interstitiel et participe aux défenses immunitaires.
@@ -75,7 +90,14 @@ Mise à jour : 28 octobre 2026. Définitions pédagogiques synthétiques. Classe
 - **Thrombopénie** : Diminution du nombre de plaquettes sanguines.
 - **Thymus** : Organe lymphoïde primaire où mûrissent et sont sélectionnés les lymphocytes T.
 - **Vaisseau lymphatique** : Conduit transportant la lymphe des tissus vers la circulation veineuse, avec des valvules favorisant le flux.
+- **Valve aortique** : Valve semi-lunaire entre le ventricule gauche et l'aorte.
+- **Valve mitrale** : Valve atrioventriculaire gauche, normalement à deux feuillets.
+- **Valve pulmonaire** : Valve semi-lunaire entre le ventricule droit et le tronc pulmonaire.
+- **Valve tricuspide** : Valve atrioventriculaire droite, normalement à trois feuillets.
 - **Vasoconstriction** : Réduction du diamètre d'un vaisseau par contraction de sa paroi musculaire ; peut augmenter la résistance vasculaire.
 - **Vasodilatation** : Augmentation du diamètre d'un vaisseau par relâchement de sa paroi musculaire ; peut diminuer la résistance vasculaire.
+- **Veine** : Vaisseau ramenant le sang au cœur, avec une paroi musculaire plus fine que celle des artères.
+- **Veine pulmonaire** : Veine ramenant le sang oxygéné des poumons vers l'oreillette gauche.
 - **Ventilation** : Renouvellement de l’air dans les poumons.
+- **Volémie** : Volume total de sang circulant dans l'organisme.
 - **VPPB (vertige positionnel paroxystique bénin)** : Vertiges brefs déclenchés par certains mouvements de tête, généralement liés au déplacement d'otoconies dans un canal semi-circulaire.
