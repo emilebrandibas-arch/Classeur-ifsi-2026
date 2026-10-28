@@ -36,3 +36,13 @@ Ajout du cours A4 et des fiches A5 « Examens biologiques et prélèvements : bo
 ## Confidentialité
 
 **Attention : ce dépôt et le site sont publics.** Ne jamais y placer de données personnelles de patients, de dossiers de stage identifiants, d'identifiants de connexion ou de supports dont la diffusion est interdite. Si les documents doivent être réservés à trois personnes, GitHub Pages public ne constitue pas une protection d'accès.
+
+## Lexiques complémentaires — 28 octobre 2026
+
+À partir des échanges médicaux du 27 octobre et des cours précédents, le lexique général du site compte 1 066 termes (45 notions complémentaires, plus fusion d'un doublon Glasgow). Les lexiques spécialisés ont été complétés :
+- [A1 — Raisonnement et états cliniques](lexiques/UE_A1_Raisonnement_etat_clinique_2026.md)
+- [B1 — Neurologie, circulation, système lymphatique](lexiques/UE_B1_Neurologie_Circulation_Lymphatique_2026.md)
+- [B3 — Surveillance clinique et urgences](lexiques/UE_B3_Surveillance_Clinique_Urgences_2026.md)
+- [Anatomie et physiologie — lexique transversal](lexiques/Anatomie_Physiologie_Systemes_2026.md)
+
+Ces ajouts sont des définitions pédagogiques et n'introduisent aucune retranscription brute.
