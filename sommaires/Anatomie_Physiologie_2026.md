@@ -16,6 +16,11 @@
 - [Cours A4 — 6 pages](../documents/UE_B1_Capsule_Dr_Dandrea_Cardiovasculaire_Cours_A4_2026-10-28.pdf) · [Fiche A5 paysage recto-verso — 2 pages](../documents/UE_B1_Capsule_Dr_Dandrea_Cardiovasculaire_Fiche_A5_RV_2026-10-28.pdf) · [Lexique](../lexiques/UE_B1_Cardiovasculaire_2026.md).
 - Capsule distincte de l'atlas : numéro de CM non communiqué.
 
+## Capsule UE B1 — Système tégumentaire (28 octobre 2026)
+- [Cours A4 illustré — 6 pages](../documents/UE_B1_Capsule_03_Appareil_Tegumentaire_Cours_A4_2026-10-28.pdf) · [Fiche A5 paysage recto-verso — 2 pages](../documents/UE_B1_Capsule_03_Appareil_Tegumentaire_Fiches_A5_RV_2026-10-28.pdf).
+- Anatomie, cellules, annexes, thermorégulation, brûlures, surveillance et rôle IDE ; capsule distincte de la planche 08 de l'atlas.
+- [Lexique spécialisé](../lexiques/UE_B1_Cellulaire_Tegumentaire_Fragilite_2026.md).
+
 ## Répertoire des fiches
 - **01 — Appareil cardiovasculaire** : Cœur : 4 cavités, valves, grande et petite circulation.
 - **02 — Appareil respiratoire** : Voies aériennes, bronchioles, alvéoles et diaphragme.
