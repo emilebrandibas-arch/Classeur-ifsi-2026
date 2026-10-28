@@ -46,3 +46,9 @@ Ajout du cours A4 et des fiches A5 « Examens biologiques et prélèvements : bo
 - [Anatomie et physiologie — lexique transversal](lexiques/Anatomie_Physiologie_Systemes_2026.md)
 
 Ces ajouts sont des définitions pédagogiques et n'introduisent aucune retranscription brute.
+
+## Capsule tégumentaire — 28 octobre 2026
+
+- [Cours UE B1 A4 illustré (6 pages)](documents/UE_B1_Capsule_03_Appareil_Tegumentaire_Cours_A4_2026-10-28.pdf) et [fiches de révision A5 paysage recto-verso (2 pages)](documents/UE_B1_Capsule_03_Appareil_Tegumentaire_Fiches_A5_RV_2026-10-28.pdf).
+- Remplacement des deux anciennes synthèses provisoires tégumentaires dans l'index du classeur. Sources : capsule reçue, Ameli, Croix-Rouge française. Les lexiques UE B1, UE B3 et général, ainsi que les sommaires sont actualisés.
+- PDF consultables directement depuis GitHub Pages sans authentification Google Drive.
