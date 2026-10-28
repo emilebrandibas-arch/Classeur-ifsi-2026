@@ -37,3 +37,13 @@ Actualisation : **28 octobre 2026** · IFSI 2026–2029 · Définitions classée
 - Un malaise après traumatisme crânien ne doit pas être étiqueté « vagal » sans évaluation médicale des complications possibles.
 
 Source : synthèse des notions étudiées dans les échanges, en complément des cours IFSI ; à confronter au contexte clinique, aux consignes et protocoles de l'établissement.
+
+## Complément — brûlures (capsule UE B1 du 28/10/2026)
+- **Brûlure étendue** — Brûlure intéressant une grande part de la surface corporelle ; risque d'hypovolémie, d'hypothermie et de choc.
+- **Brûlure profonde** — Lésion cutanée profonde à risque de perte hydro-électrolytique et d'infection, parfois peu douloureuse.
+- **Hypothermie** — Diminution pathologique de la température centrale, possible lors des brûlures étendues.
+- **Phlyctène** — Bulle cutanée remplie de liquide, dont l'intégrité est à préserver lors des premiers secours.
+- **SCB** — Surface corporelle brûlée exprimée en pourcentage ; estimation selon Wallace chez l'adulte.
+- **Syndrome d'inhalation** — Atteinte des voies respiratoires après inhalation de fumées ou de gaz chauds, constituant une urgence.
+
+Surveillance : ABCDE, voies aériennes, FR, SpO₂, FC, PA, douleur, diurèse si prescrite, plaie, hypothermie et transmissions.
