@@ -1,9 +1,10 @@
 # Lexique transversal — Anatomie et physiologie — IFSI 2026–2029
 
-Mise à jour : 28 octobre 2026. Définitions pédagogiques synthétiques. Classement alphabétique ; 138 termes.
+Mise à jour : 28 octobre 2026. Définitions pédagogiques synthétiques. Classement alphabétique ; 145 termes.
 - **Accommodation** : Ajustement de la focalisation de l’œil pour voir net.
 - **Acouphène** : Perception d’un son en l’absence de source extérieure.
 - **Adénopathie** : Augmentation de taille ou anomalie d’un ganglion lymphatique.
+- **Albinisme** : Affections génétiques réduisant ou empêchant la synthèse de mélanine.
 - **Alvéole** : Unité terminale pulmonaire où ont lieu les échanges gazeux.
 - **Aménorrhée** : Absence de menstruations.
 - **Angiotensine II** : Peptide du SRAA induisant une vasoconstriction et stimulant la sécrétion d’aldostérone.
@@ -53,14 +54,17 @@ Mise à jour : 28 octobre 2026. Définitions pédagogiques synthétiques. Classe
 - **Follicule pileux** : Invagination cutanée où se forme et s'ancre le poil.
 - **Fracture du rocher** : Fracture de la partie pétreuse de l'os temporal, pouvant léser les structures auditives, vestibulaires ou le nerf facial.
 - **Ganglion lymphatique** : Petit organe filtre du réseau lymphatique où des cellules immunitaires participent à la réponse aux antigènes.
+- **Glande mammaire** : Glande cutanée spécialisée qui sécrète le lait pendant la lactation.
 - **Glande sébacée** : Glande qui sécrète le sébum dans un follicule pileux.
 - **Glycémie** : Concentration de glucose dans le sang.
+- **Greffe cutanée** : Transfert d'un fragment cutané pour couvrir une zone lésée.
 - **Hématome épidural** : Collection de sang entre la face interne du crâne et la dure-mère, souvent liée à un traumatisme ; urgence neurochirurgicale potentielle.
 - **Hématome sous-dural** : Collection de sang entre la dure-mère et l'arachnoïde, pouvant être aiguë ou chronique, notamment après un traumatisme.
 - **Hématopoïèse** : Formation des cellules sanguines.
 - **Hématurie** : Présence de sang dans les urines.
 - **Hémoglobine** : Protéine des globules rouges transportant l’oxygène.
 - **Hémorragie intracrânienne** : Saignement à l'intérieur du crâne, dans les méninges ou le tissu cérébral ; peut entraîner une dégradation neurologique.
+- **Homoncule sensitif** : Représentation somatotopique corticale dont les proportions illustrent la précision de la sensibilité.
 - **Hormone** : Messager chimique libéré et agissant sur des cellules cibles.
 - **Hypoacousie** : Diminution de l’audition.
 - **Hypoperfusion** : Apport sanguin insuffisant à un tissu ou à un organe pour répondre à ses besoins métaboliques.
@@ -82,8 +86,10 @@ Mise à jour : 28 octobre 2026. Définitions pédagogiques synthétiques. Classe
 - **Malaise vagal** : Malaise lié à une réaction réflexe vasovagale avec baisse de la pression artérielle et parfois de la fréquence cardiaque ; peut aller jusqu'à la syncope.
 - **Mélanine** : Pigment produit par les mélanocytes participant à la pigmentation et à la photoprotection.
 - **Mélanocyte** : Cellule de l'épiderme synthétisant la mélanine.
+- **Mélanome** : Cancer provenant des mélanocytes ; une lésion pigmentée suspecte nécessite une évaluation médicale.
 - **Mélanosome** : Organite transportant la mélanine du mélanocyte vers les kératinocytes.
 - **Méléna** : Émission de selles noires goudronneuses pouvant traduire un saignement digestif.
+- **Métastase en transit** : Foyer tumoral cutané ou sous-cutané situé sur le trajet lymphatique entre mélanome initial et relais ganglionnaire.
 - **Myalgie** : Douleur musculaire.
 - **Mydriase** : Dilatation de la pupille.
 - **Myocarde** : Muscle constituant la paroi du cœur.
@@ -137,5 +143,6 @@ Mise à jour : 28 octobre 2026. Définitions pédagogiques synthétiques. Classe
 - **Veine** : Vaisseau ramenant le sang au cœur, avec une paroi musculaire plus fine que celle des artères.
 - **Veine pulmonaire** : Veine ramenant le sang oxygéné des poumons vers l'oreillette gauche.
 - **Ventilation** : Renouvellement de l’air dans les poumons.
+- **Vitiligo** : Affection entraînant des plages cutanées dépigmentées par perte ou dysfonction des mélanocytes.
 - **Volémie** : Volume total de sang circulant dans l'organisme.
 - **VPPB (vertige positionnel paroxystique bénin)** : Vertiges brefs déclenchés par certains mouvements de tête, généralement liés au déplacement d'otoconies dans un canal semi-circulaire.
