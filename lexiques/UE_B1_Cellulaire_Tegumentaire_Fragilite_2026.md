@@ -3,7 +3,9 @@ Mise à jour : **28 octobre 2026** · UE B1 · complément capsule 03, anatomie 
 Définitions de révision classées par ordre alphabétique. À confronter aux supports originaux Moodle.
 
 
+- **ABCDE du mélanome** — Repères d'alerte pour une lésion pigmentée : Asymétrie, Bords, Couleur, Diamètre et Évolution ; ce n'est pas un diagnostic.
 - **ADN** — Acide désoxyribonucléique ; molécule qui porte la majorité de l’information génétique cellulaire.
+- **Albinisme** — Ensemble de maladies génétiques entraînant une réduction ou une absence de production de mélanine.
 - **Anhydrose** — Absence ou diminution majeure de la transpiration.
 - **Annexe cutanée** — Structure spécialisée associée à la peau, par exemple poil, ongle ou glande.
 - **Apocrine (glande)** — Glande cutanée sécrétant dans un follicule pileux, notamment dans les régions axillaires.
@@ -11,10 +13,12 @@ Définitions de révision classées par ordre alphabétique. À confronter aux s
 - **ARN messager (ARNm)** — Molécule transcrite à partir de l’ADN qui transporte une information utilisée par les ribosomes pour produire une protéine.
 - **Avasculaire** — Qui ne possède pas de vaisseaux sanguins.
 - **Barrière cutanée** — Fonction protectrice de la peau limitant pénétration des agents extérieurs et pertes d'eau.
+- **Bilirubine** — Pigment formé lors de la dégradation de l'hème ; son accumulation peut provoquer un ictère.
 - **Brûlure du 1er degré** — Atteinte superficielle de l'épiderme entraînant une rougeur douloureuse sans phlyctène.
 - **Brûlure du 2e degré profond** — Atteinte dermique profonde, souvent pâle et moins sensible, nécessitant un avis spécialisé.
 - **Brûlure du 2e degré superficiel** — Atteinte partielle du derme, avec phlyctènes et fond rouge ou rose humide douloureux.
 - **Brûlure du 3e degré** — Destruction de toute l'épaisseur cutanée, avec zone sèche, blanchâtre, brunâtre ou noire, souvent insensible.
+- **Carotène** — Pigment alimentaire susceptible de colorer la peau en jaune-orangé sans jaunir les sclères.
 - **Cellule de Langerhans** — Cellule immunitaire épidermique participant à la présentation d'antigènes.
 - **Cellule de Merkel** — Cellule cutanée associée à la perception du toucher fin.
 - **Cornéocyte** — Cellule kératinisée terminale, dépourvue de noyau, constituant la couche cornée.
@@ -35,16 +39,22 @@ Définitions de révision classées par ordre alphabétique. À confronter aux s
 - **Exsudat** — Liquide produit au niveau d'une lésion ou d'une plaie, issu notamment des tissus et vaisseaux.
 - **Follicule pileux** — Invagination cutanée où se forme et s'ancre le poil.
 - **Fragilité** — État de vulnérabilité lié à une diminution des réserves fonctionnelles, augmentant le risque de décompensation face à un stress.
+- **Glande mammaire** — Glande cutanée spécialisée qui produit le lait pendant la lactation.
 - **Glande sébacée** — Glande qui sécrète le sébum dans un follicule pileux.
+- **Greffe cutanée** — Transfert d'un fragment de peau vers une zone à recouvrir, notamment après une brûlure profonde.
+- **Homoncule sensitif** — Représentation des régions du corps dans le cortex somatosensoriel ; leur taille reflète la finesse de sensibilité.
 - **Hypoderme** — Tissu situé sous le derme, riche en tissu adipeux et participant notamment à la protection et à l’isolation.
 - **Hypothalamus** — Région cérébrale participant notamment à la régulation de la température corporelle.
+- **Ictère** — Coloration jaune de la peau et des sclères due à une augmentation de bilirubine.
 - **Kératinisation** — Transformation progressive des kératinocytes en cellules cornées riches en kératine.
 - **Kératinocyte** — Cellule principale de l'épiderme qui participe à sa structure et à la barrière cutanée.
 - **Lésion de pression (escarre)** — Atteinte localisée de la peau et/ou des tissus sous-jacents liée à une pression prolongée ou combinée au cisaillement.
 - **Mélanine** — Pigment produit par les mélanocytes participant à la pigmentation et à la photoprotection.
 - **Mélanocyte** — Cellule de l'épiderme synthétisant la mélanine.
+- **Mélanome** — Cancer développé à partir des mélanocytes ; toute lésion pigmentée suspecte nécessite une évaluation médicale.
 - **Mélanosome** — Organite transportant la mélanine du mélanocyte vers les kératinocytes.
 - **Membrane plasmique** — Bicouche lipidique qui délimite la cellule et régule les échanges avec son environnement.
+- **Métastase en transit** — Foyer métastatique cutané ou sous-cutané sur un trajet lymphatique entre une tumeur initiale et les ganglions régionaux.
 - **Nécrose** — Mort cellulaire due à une atteinte irréversible, souvent associée à une réaction inflammatoire.
 - **Papule** — Petite lésion cutanée solide et surélevée.
 - **Phlyctène** — Bulle cutanée contenant du liquide, fréquente dans les brûlures du 2e degré.
@@ -60,6 +70,7 @@ Définitions de révision classées par ordre alphabétique. À confronter aux s
 - **Vasoconstriction cutanée** — Diminution du calibre des vaisseaux cutanés, limitant les pertes de chaleur.
 - **Vasodilatation cutanée** — Augmentation du calibre des vaisseaux cutanés, favorisant les échanges thermiques.
 - **Vésicule** — Petite lésion cutanée contenant un liquide clair ou séreux.
+- **Vitiligo** — Affection entraînant des plaques dépigmentées par perte ou dysfonction des mélanocytes.
 
 **À retenir :** ADN → transcription en ARN → traduction en protéine ; une rougeur persistante non blanchissable sur peau intacte impose décharge, traçabilité et transmission selon le protocole.
 
