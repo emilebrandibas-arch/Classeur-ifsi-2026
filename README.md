@@ -52,3 +52,7 @@ Ces ajouts sont des définitions pédagogiques et n'introduisent aucune retransc
 - [Cours UE B1 A4 illustré (6 pages)](documents/UE_B1_Capsule_03_Appareil_Tegumentaire_Cours_A4_2026-10-28.pdf) et [fiches de révision A5 paysage recto-verso (2 pages)](documents/UE_B1_Capsule_03_Appareil_Tegumentaire_Fiches_A5_RV_2026-10-28.pdf).
 - Remplacement des deux anciennes synthèses provisoires tégumentaires dans l'index du classeur. Sources : capsule reçue, Ameli, Croix-Rouge française. Les lexiques UE B1, UE B3 et général, ainsi que les sommaires sont actualisés.
 - PDF consultables directement depuis GitHub Pages sans authentification Google Drive.
+
+## Suivi Moodle et planning — 5 novembre 2026
+
+L’inventaire des semaines 45–46 et des nouveaux supports B1, B2, B3, C1, C2 et E3 est consigné dans le [suivi Moodle du 5 novembre](sommaires/Suivi_Moodle_2026-11-05.md). Les cours A4/A5 déjà classés restent en place ; les nouvelles ressources sont marquées à comparer avant intégration pour éviter les doublons.
