@@ -20,7 +20,8 @@ Comparaison du classeur avec les sections Moodle consultées et les plannings de
 - **Soins relationnels en gériatrie** — TD du 2 novembre.
 - **TD Prévention en gériatrie** — dossier Moodle.
 - **Initiation à l’examen clinique** — ressource Moodle.
-- À traiter en synthèses pédagogiques A4 et fiches A5 après comparaison des documents sources aux cours déjà présents.
+- **Préparation pratique semaine 46 : traitée** dans un guide A4 et une fiche A5, à partir du planning et des ressources B3 déjà classées. Le support prépare les ateliers; il ne remplace pas les consignes détaillées du formateur.
+- [Guide A4](../documents/UE_B3_Ateliers_Pratiques_Semaine_46_Cours_A4_2026-11-05.pdf) · [Fiche A5](../documents/UE_B3_Ateliers_Pratiques_Semaine_46_Fiches_A5_RV_2026-11-05.pdf) · [Lexique B3](../lexiques/UE_B3_Ateliers_Pratiques_2026.md)
 
 ### UE C1
 - **Les déterminants de santé — Lionel Poulet** : support PPTX Moodle repéré ; à classer dans UE C1.
