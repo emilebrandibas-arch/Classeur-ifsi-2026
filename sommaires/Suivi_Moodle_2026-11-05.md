@@ -24,7 +24,8 @@ Comparaison du classeur avec les sections Moodle consultées et les plannings de
 - [Guide A4](../documents/UE_B3_Ateliers_Pratiques_Semaine_46_Cours_A4_2026-11-05.pdf) · [Fiche A5](../documents/UE_B3_Ateliers_Pratiques_Semaine_46_Fiches_A5_RV_2026-11-05.pdf) · [Lexique B3](../lexiques/UE_B3_Ateliers_Pratiques_2026.md)
 
 ### UE C1
-- **Les déterminants de santé — Lionel Poulet** : support PPTX Moodle repéré ; à classer dans UE C1.
+- Sommaire UE C1 : [UE_C1_S1_2026.md](UE_C1_S1_2026.md) · [Lexique UE C1](../lexiques/UE_C1_CM3_Determinants_Prevention_Promotion_2026-11-05.md).
+- **Les déterminants de santé — Lionel Poulet (CM3, PPTX de 80 diapositives, 30/09/2026)** : la fiche A5 de 2 pages était déjà classée ; le cours A4 pédagogique de 5 pages et le lexique UE C1 sont maintenant ajoutés. Le cours synthétise la fiche existante et les repères de l’OMS ; la confrontation intégrale au PPTX original reste à faire.
 - **Mobilisation des connaissances** figure au planning de semaine 45 ; aucun support portant ce titre n’a été repéré dans la section TD C1 consultée.
 
 ### UE A2, C2 et E3
@@ -40,5 +41,5 @@ Plusieurs thèmes disposent déjà de cours ou fiches B3 dans le classeur. Les s
 ## État de classement au 5 novembre
 
 - Derniers fichiers Drive repérés : B1 le 29/10, B2 le 22/10, B3 le 28/10.
-- Le présent suivi enregistre les nouveautés et les vérifications à faire. Les éléments listés ici ne sont pas déclarés comme cours A4/A5 terminés tant que leur contenu n’a pas été comparé aux supports Moodle.
+- Le présent suivi enregistre les nouveautés et les vérifications à faire. Le guide pratique B3 est classé en A4/A5 ; pour le CM3 C1, le cours A4 est une synthèse et sa confrontation intégrale au PPTX Moodle reste à faire.
 - Aucun fichier brut de transcription n’est ajouté au classeur.
