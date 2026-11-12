@@ -56,3 +56,7 @@ Ces ajouts sont des définitions pédagogiques et n'introduisent aucune retransc
 ## Suivi Moodle et planning — 5 novembre 2026
 
 L’inventaire des semaines 45–46 et des nouveaux supports B1, B2, B3, C1, C2 et E3 est consigné dans le [suivi Moodle du 5 novembre](sommaires/Suivi_Moodle_2026-11-05.md). Les cours A4/A5 déjà classés restent en place ; les nouvelles ressources sont marquées à comparer avant intégration pour éviter les doublons.
+
+## UE E3 — TD Évolution des représentations (12 novembre 2026)
+
+Le [TD E3 A4 en deux pages](https://drive.google.com/file/d/1KURCmLVJop6e3XjYrAYixreNgJfcH6b0/view) est classé dans Google Drive (Semestre 1 / UE E3) et référencé dans l'index du classeur. Voir le [sommaire UE E3](sommaires/UE_E3_S1_2026.md) et le [lexique E3](lexiques/UE_E3_Representations_Posture_ESI_2026-11-12.md). Le document a été préparé à partir des consignes fournies, sans accès Moodle direct. Le fichier Drive n'est pas diffusé publiquement : l'accès à son PDF dépend des permissions Google Drive.
