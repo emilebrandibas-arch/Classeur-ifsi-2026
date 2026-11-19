@@ -175,7 +175,7 @@ window.IFSI_NURSING_MOLECULES = {
       "follow": "Mouvements anormaux, agitation motrice et somnolence."
     },
     "Dompéridone": {
-      "special": "Risque QT/arythmie et interactions",
+      "special": "Risque d'allongement du QT, d'arythmie cardiaque et interactions médicamenteuses",
       "follow": "Palpitations, malaise et ECG si indiqué."
     },
     "Doxycycline": {
