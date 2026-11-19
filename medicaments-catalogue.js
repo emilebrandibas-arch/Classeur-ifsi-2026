@@ -51,6 +51,15 @@ window.IFSI_MEDICINES_CATALOGUE = {
     },
     {
       "group": "Neurologie et psychiatrie",
+      "family": "Alimémazine — antihistaminique H1 sédatif",
+      "examples": "Alimémazine (Théralène), comprimé 5 mg et solution buvable 4 % : présentations distinctes.",
+      "aim": "Antihistaminique H1 sédatif de la famille des phénothiazines, indiqué dans certaines insomnies occasionnelles ou transitoires chez l’adulte et, selon la présentation, dans des indications pédiatriques restreintes.",
+      "nurse": "Vérifier prescription, indication, âge/poids, présentation et médicaments sédatifs associés ; prévenir le risque de chute et vérifier toute forme buvable avant administration.",
+      "monitor": "Vigilance, conscience, somnolence, pression artérielle, fréquence respiratoire selon situation, signes anticholinergiques et risque de chute.",
+      "alarm": "Sédation anormale, difficultés respiratoires, syncope ou palpitations, réaction allergique grave."
+    },
+    {
+      "group": "Neurologie et psychiatrie",
       "family": "Hydroxyzine — antihistaminique sédatif",
       "examples": "Hydroxyzine (Atarax).",
       "aim": "Antihistaminique H1 sédatif, indiqué dans certaines situations anxieuses et allergiques.",
@@ -66,6 +75,12 @@ window.IFSI_MEDICINES_CATALOGUE = {
       "family": "Cyamémazine — neuroleptique sédatif",
       "vidalUrl": "https://www.vidal.fr/medicaments/gammes/tercian-10184.html",
       "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/63400513/extrait"
+    },
+    {
+      "name": "Théralène",
+      "dci": "Alimémazine",
+      "family": "Alimémazine — antihistaminique H1 sédatif",
+      "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/66801066/extrait"
     },
     {
       "name": "Cyamémazine Arrow",
