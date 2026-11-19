@@ -7,13 +7,15 @@ Le classeur regroupe les cours A4, les fiches de révision A5 et le planning CM/
 
 ## Bibliothèque des médicaments — 19 novembre 2026
 
-- **Adresse publique du classeur inchangée :** https://emilebrandibas-arch.github.io/Classeur-ifsi-2026/
-- **Recherche de médicaments A–Z par nom commercial :** https://emilebrandibas-arch.github.io/Classeur-ifsi-2026/medicaments.html
-- 234 noms commerciaux indexés, avec la DCI correspondante, regroupés en 96 rubriques thérapeutiques pédagogiques.
-- Ajout de **Théralène (alimémazine)** : nom commercial retrouvé avec ou sans accent, fiche pédagogique et lien vers la base publique. Correction du bouton « Afficher les suivants » lors des recherches sans résultat ; fichier de données versionné pour éviter les anciens caches.
-- Recherche par marque en priorité (Tercian, Xanax, Doliprane, Loxapac, etc.), ou par DCI, sans sensibilité aux accents/majuscules. Chaque fiche renvoie au rôle et aux surveillances IDE par famille, sans posologie.
-- Lien « Médicaments A–Z (marques) » accessible depuis l'accueil du classeur. Les anciens liens partagés restent valables après la publication GitHub Pages ; les utilisateurs peuvent actualiser la page si leur navigateur conserve une ancienne version.
-- Répertoire pédagogique : la DCI et le nom commercial ne suffisent pas pour déterminer l'équivalence des formes, des dosages ou des voies d'administration. Vérifier chaque spécialité auprès de la base publique des médicaments (RCP), de l'ANSM et des protocoles du service.
+- **Lien public inchangé :** https://emilebrandibas-arch.github.io/Classeur-ifsi-2026/
+- **Recherche médicaments :** https://emilebrandibas-arch.github.io/Classeur-ifsi-2026/medicaments.html
+- **Index officiel :** 15 799 spécialités BDPM importées lors du déploiement du 19/11/2026, comprenant dénomination complète (marque, dosage, forme), code CIS, substance(s) active(s), forme, voie et état de commercialisation tel que figurant dans l'export.
+- **Fiches IDE :** 234 noms commerciaux enrichis, répartis en 96 rubriques, avec indications pédagogiques, rôle infirmier, surveillances et signes d'alerte. Ces fiches ne couvrent pas chacune des 15 799 spécialités officielles et ne remplacent pas un RCP.
+- **Recherche unifiée** par nom commercial (avec ou sans accent), nom exact de spécialité, DCI/substance active. En recherche libre, les fiches IDE sont mises en avant lorsqu'une marque correspond exactement, puis les références officielles détaillées par présentation.
+- **Actualisation automatisée** depuis les fichiers officiels BDPM (CIS_bdpm.txt + CIS_COMPO_bdpm.txt) à chaque déploiement GitHub Pages, avec un passage mensuel programmé le 3 du mois. Si le téléchargement officiel échoue, la publication est bloquée plutôt que de publier un index incomplet ; la dernière version en ligne reste disponible.
+- **Source, attribution et date d'import :** Base de données publique des médicaments, ministère chargé de la santé / ANSM (Licence Ouverte Etalab) — https://base-donnees-publique.medicaments.gouv.fr/telechargement. La date d'extraction ne garantit pas que chaque notice a été actualisée ce jour.
+- La recherche et l'affichage de l'index ne constituent ni un avis thérapeutique ni une preuve d'interchangeabilité des présentations, concentrations et voies. Toujours vérifier la prescription, les précautions, l'AMM, les interactions, les alertes ANSM et le RCP actualisé. Ne pas utiliser les descriptions synthétiques pour administrer sans protocole ou avis professionnel.
+- Les liens publics déjà partagés ne changent pas.
 
 ## Anatomie et physiologie — 26 octobre 2026
 
