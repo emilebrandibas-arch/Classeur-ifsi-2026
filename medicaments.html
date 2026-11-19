@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="fr"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Médicaments A–Z par nom commercial | Classeur IFSI 2026–2029</title>
+<style>
+:root{font-family:Inter,system-ui,-apple-system,Segoe UI,Arial,sans-serif;color:#22383a;background:#eef3f1}
+*{box-sizing:border-box}body{margin:0}a{color:#185767}button,input,select{font:inherit}button{cursor:pointer}
+header{background:linear-gradient(115deg,#113841,#286569);color:white;padding:24px max(4vw,16px)}
+header a{color:#d8ece8;text-decoration:none;font-size:13px}header h1{margin:14px 0 6px;font-family:Georgia,serif;font-size:clamp(27px,4vw,40px);font-weight:500}
+header p{font-size:14px;line-height:1.5;max-width:800px;color:#e0f0ec;margin:6px 0}
+main{max-width:1180px;margin:auto;padding:20px clamp(12px,3vw,35px) 45px}
+.searchpanel{padding:18px;background:white;border:1px solid #d9e6e0;border-radius:18px;box-shadow:0 8px 32px #203b3a12}
+.searchpanel label{display:block;font-size:13px;font-weight:750;color:#28484a;margin:4px 0 7px}
+.searchpanel input,.searchpanel select{width:100%;border-radius:11px;border:1px solid #b8cdc8;background:#fafdfc;color:#20383e;padding:13px}
+.searchpanel input{font-size:17px;outline-color:#226d6b}
+.controls{display:grid;grid-template-columns:minmax(0,2fr) minmax(190px,1fr);gap:16px}
+.options{display:flex;align-items:center;flex-wrap:wrap;gap:7px;margin-top:13px}
+.options button{border:1px solid #c0d8ce;background:#eaf4f0;border-radius:18px;padding:8px 13px;color:#14535b;font-size:12px;font-weight:700}
+.options button:hover{background:#d3e8df}
+.counter{margin:20px 0 12px;display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap;font-size:14px;font-weight:700}
+.counter span{color:#587276;font-weight:500}
+.list{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,340px),1fr));align-items:start;gap:13px}
+.drug{border:1px solid #d4e4de;border-radius:13px;background:#fff;overflow:hidden;box-shadow:0 4px 18px #244a4b10}
+.drug[open]{border-color:#79a99d;box-shadow:0 10px 28px #2558541f}
+.drug summary{cursor:pointer;padding:16px;list-style:none;display:flex;align-items:start;gap:12px}
+.drug summary::-webkit-details-marker{display:none}
+.names{flex:1;min-width:0}.brand{display:block;color:#123e46;font-weight:800;font-size:18px;line-height:1.32}
+.dci{display:block;color:#425e62;font-size:13px;line-height:1.45;margin-top:3px}
+.group{display:block;color:#678084;font-size:11px;margin-top:7px}
+.plus{font-size:23px;color:#246b69;line-height:1}.drug[open] .plus{transform:rotate(45deg)}
+.info{border-top:1px solid #dfebe7;padding:5px 16px 16px;font-size:13px;line-height:1.56}
+.info p{margin:10px 0}.info b{color:#1d5258}.alert{padding:10px;background:#fff0e9;border-left:3px solid #d77c55;border-radius:6px}
+.refs{margin-top:12px;display:flex;gap:10px;flex-wrap:wrap}.refs a{font-size:12px;font-weight:700}
+.showmore{display:block;margin:20px auto;border:0;border-radius:23px;background:#164d56;color:#fff;padding:12px 22px;font-weight:700}
+.help{font-size:12px;line-height:1.65;color:#5d7477;margin:20px 0}
+.empty{padding:20px;background:white;border:1px solid #dae5df;border-radius:14px;line-height:1.6}
+footer{padding:18px;text-align:center;font-size:12px;color:#597375;border-top:1px solid #d3e0db}
+@media(max-width:640px){.controls{grid-template-columns:1fr}.searchpanel{padding:13px}.drug summary{padding:14px}header{padding:20px 16px}}
+</style></head><body>
+<header><a href="./index.html">← Retour au classeur virtuel IFSI 2026–2029</a><h1>Médicaments A–Z</h1>
+<p>Recherche prioritaire par <strong>nom commercial</strong> : Tercian, Xanax, Doliprane, Lovenox… Chaque résultat indique sa DCI, sa famille et les surveillances infirmières.</p></header>
+<main><section class="searchpanel" aria-label="Recherche de médicaments"><div class="controls">
+<div><label for="search">Nom commercial ou DCI</label><input id="search" type="search" autocomplete="off" placeholder="Ex. Tercian, Xanax, Nozinan…" autofocus aria-describedby="counter"></div>
+<div><label for="category">Famille thérapeutique</label><select id="category"><option value="">Toutes les familles</option></select></div></div>
+<div class="options"><span style="font-size:12px;color:#56747a;margin-right:4px">Exemples :</span>
+<button type="button" data-example="Tercian">Tercian</button><button type="button" data-example="Xanax">Xanax</button><button type="button" data-example="Doliprane">Doliprane</button><button type="button" data-example="Loxapac">Loxapac</button><button type="button" data-example="Lovenox">Lovenox</button><button type="button" data-example="Effexor">Effexor</button>
+<button id="clear" type="button">Effacer</button></div></section>
+<div id="counter" class="counter" role="status" aria-live="polite">Chargement de la bibliothèque…</div>
+<div id="results" class="list"></div><button id="more" class="showmore" type="button" hidden>Afficher plus de médicaments</button>
+<p class="help">Répertoire pédagogique IFSI, sans posologie. Une DCI peut correspondre à plusieurs marques, présentations et voies : elles ne sont pas automatiquement interchangeables. En soins, vérifier le médicament exact, la prescription, le résumé des caractéristiques du produit (RCP), les allergies et le protocole local. Les fiches de surveillance sont synthétiques et ne remplacent pas le RCP.</p>
+</main><footer>Répertoire IFSI 2026–2029 · Source de référence : Base publique des médicaments / ANSM et VIDAL</footer>
+<script src="./medicaments-repertoire.js?v=20261119-v2"></script>
+<script>
+(function(){
+'use strict';
+const source=window.IFSI_MEDICINES_ALL;
+const $=id=>document.getElementById(id);
+const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const norm=s=>String(s??'').normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase().replace(/[^a-z0-9]/g,'');
+const result=$('results'),search=$('search'),category=$('category'),counter=$('counter'),more=$('more');
+if(!source||!Array.isArray(source.brands)||!source.brands.length){
+counter.textContent='Bibliothèque indisponible : données non chargées.';
+result.innerHTML='<div class="empty">Les données ne sont pas disponibles. Actualisez cette page ou vérifiez la connexion.</div>';return;
+}
+const byFamily=new Map(source.families.map(f=>[f.family,f]));
+const brands=source.brands.slice().sort((a,b)=>a.name.localeCompare(b.name,'fr',{sensitivity:'base'}));
+const categories=[...new Set(source.families.map(f=>f.group))].sort((a,b)=>a.localeCompare(b,'fr',{sensitivity:'base'}));
+category.innerHTML='<option value="">Toutes les catégories</option>'+categories.map(x=>'<option value="'+esc(x)+'">'+esc(x)+'</option>').join('');
+let limit=48;
+const ranking=(b,n)=>{const name=norm(b.name),dci=norm(b.dci);return name===n?0:name.startsWith(n)?1:name.includes(n)?2:dci===n?3:dci.startsWith(n)?4:dci.includes(n)?5:6};
+function item(b){
+const f=byFamily.get(b.family)||{};
+const ref=b.url?'<a href="'+esc(b.url)+'" target="_blank" rel="noopener noreferrer">RCP / base officielle</a>':'<a href="https://base-donnees-publique.medicaments.gouv.fr/" target="_blank" rel="noopener noreferrer">Consulter la base publique</a>';
+const vid=b.vidalUrl?'<a href="'+esc(b.vidalUrl)+'" target="_blank" rel="noopener noreferrer">Fiche VIDAL</a>':'';
+return '<details class="drug"><summary><span class="names"><strong class="brand">'+esc(b.name)+'</strong><span class="dci">DCI : '+esc(b.dci)+'</span><span class="group">'+esc(f.group||'')+' · '+esc(f.family||b.family)+'</span></span><span class="plus" aria-hidden="true">+</span></summary>'+
+'<div class="info"><p><b>Indications / rôle :</b> '+esc(f.aim||'Consulter le RCP de cette spécialité.')+'</p><p><b>Rôle IDE :</b> '+esc(f.nurse||'Vérifier la prescription et le protocole.')+'</p><p><b>Surveillance :</b> '+esc(f.monitor||'À adapter à la molécule et au patient.')+'</p>'+
+'<p class="alert"><b>Signes d’alerte :</b> '+esc(f.alarm||'Toute réaction indésirable grave ou aggravation clinique.')+'</p><div class="refs">'+ref+vid+'</div></div></details>';
+}
+function render(){
+const q=norm(search.value.trim()),cat=category.value;
+let filtered=brands.filter(b=>{
+const f=byFamily.get(b.family)||{};
+if(cat&&f.group!==cat)return false;
+return !q||norm(b.name).includes(q)||norm(b.dci).includes(q)||norm(f.family).includes(q);
+});
+if(q)filtered.sort((a,b)=>ranking(a,q)-ranking(b,q)||a.name.localeCompare(b.name,'fr',{sensitivity:'base'}));
+counter.innerHTML='<strong>'+filtered.length+' résultat(s)</strong><span>sur '+brands.length+' noms commerciaux indexés · '+source.families.length+' rubriques</span>';
+result.innerHTML=filtered.length?filtered.slice(0,limit).map(item).join(''):'<div class="empty"><b>Aucun nom correspondant.</b><p>Essayez un autre nom commercial ou une DCI. Pour un médicament non indexé, vérifiez directement la <a href="https://base-donnees-publique.medicaments.gouv.fr/" target="_blank" rel="noopener noreferrer">base publique des médicaments</a>.</p></div>';
+more.hidden=filtered.length<=limit;more.textContent='Afficher les suivants ('+Math.min(48,filtered.length-limit)+')';
+}
+search.addEventListener('input',()=>{limit=48;render()});
+category.addEventListener('change',()=>{limit=48;render()});
+more.addEventListener('click',()=>{limit+=48;render()});
+$('clear').addEventListener('click',()=>{search.value='';category.value='';limit=48;render();search.focus()});
+document.querySelectorAll('[data-example]').forEach(btn=>btn.addEventListener('click',()=>{search.value=btn.dataset.example;category.value='';limit=48;render();search.focus()}));
+const params=new URLSearchParams(window.location.search);if(params.has('q'))search.value=params.get('q').slice(0,100);
+render();
+})();
+</script></body></html>
