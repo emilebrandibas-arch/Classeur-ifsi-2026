@@ -32,7 +32,7 @@ for page in ROOT.glob("*.html"):
         raise SystemExit(f"{page.name} : balise </head> absente")
     # Casse le cache pour les scripts et les PDF quand une publication les modifie.
     html = re.sub(
-        r'(src=["\']\./(?:lexique-ifsi|modules|medicaments-repertoire|medicaments-catalogue|medicaments-recherche|medicaments-officiels|medicaments-prescription)\.js)(?:\?[^"\']*)?(["\'])',
+        r'(src=["\']\./(?:lexique-ifsi|modules|medicaments-repertoire|medicaments-catalogue|medicaments-recherche|medicaments-officiels|medicaments-prescription|medicaments-fiches-ide|medicaments-vigilance-molecules)\.js)(?:\?[^"\']*)?(["\'])',
         lambda m: m.group(1) + "?v=" + sha[:12] + m.group(2),
         html,
     )
