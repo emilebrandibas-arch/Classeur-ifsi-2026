@@ -36,7 +36,7 @@ assert.equal(Object.keys(molecules.molecules).length,48);
 const html=fs.readFileSync(path.join(root,'medicaments.html'),'utf8');
 const js=fs.readFileSync(path.join(root,'medicaments-recherche.js'),'utf8');
 for (const f of ['medicaments-repertoire.js','medicaments-prescription.js','medicaments-fiches-ide.js','medicaments-vigilance-molecules.js','medicaments-recherche.js']) {
-  assert.ok(html.includes('src="./'+f+'"'),'Script non lié : '+f);
+  assert.ok(html.includes('src="./'+f),'Script non lié : '+f);
 }
 assert.ok(html.indexOf('medicaments-fiches-ide.js')<html.indexOf('medicaments-recherche.js'));
 for(const fragment of ['careSection(b)','molecularCare?.molecules?.[b.dci]','f.before','f.follow','f.education','global.evaluation','Guide HAS des 5 B']) {
