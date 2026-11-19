@@ -5,6 +5,15 @@ https://emilebrandibas-arch.github.io/Classeur-ifsi-2026/
 
 Le classeur regroupe les cours A4, les fiches de révision A5 et le planning CM/TD, classés par UE et semestre.
 
+## Bibliothèque des médicaments — 19 novembre 2026
+
+- **Adresse publique du classeur inchangée :** https://emilebrandibas-arch.github.io/Classeur-ifsi-2026/
+- **Recherche de médicaments A–Z par nom commercial :** https://emilebrandibas-arch.github.io/Classeur-ifsi-2026/medicaments.html
+- 233 noms commerciaux indexés, avec la DCI correspondante, regroupés en 95 rubriques thérapeutiques pédagogiques.
+- Recherche par marque en priorité (Tercian, Xanax, Doliprane, Loxapac, etc.), ou par DCI, sans sensibilité aux accents/majuscules. Chaque fiche renvoie au rôle et aux surveillances IDE par famille, sans posologie.
+- Lien « Médicaments A–Z (marques) » accessible depuis l'accueil du classeur. Les anciens liens partagés restent valables après la publication GitHub Pages ; les utilisateurs peuvent actualiser la page si leur navigateur conserve une ancienne version.
+- Répertoire pédagogique : la DCI et le nom commercial ne suffisent pas pour déterminer l'équivalence des formes, des dosages ou des voies d'administration. Vérifier chaque spécialité auprès de la base publique des médicaments (RCP), de l'ANSM et des protocoles du service.
+
 ## Anatomie et physiologie — 26 octobre 2026
 
 Nouvelle [rubrique d'anatomie et physiologie](anatomie/index.html) : 15 systèmes, 15 pages A4 portrait (4 par système) et 15 pages A5 paysage (2 par système) et 15 fiches A5 recto-verso paysage recto-verso (30 pages) ; [sommaire transversal](sommaires/Anatomie_Physiologie_2026.md) et [lexique spécialisé](lexiques/Anatomie_Physiologie_Systemes_2026.md). PDF imprimables conservés dans Google Drive. Les liens privés Drive peuvent requérir un accès.
