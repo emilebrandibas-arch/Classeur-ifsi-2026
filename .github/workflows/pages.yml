@@ -3,6 +3,8 @@ on:
   push:
     branches: [main]
   workflow_dispatch:
+  schedule:
+    - cron: '13 6 3 * *' # Mise à jour mensuelle de l'index BDPM
 permissions:
   contents: read
   pages: write
@@ -24,6 +26,8 @@ jobs:
         run: |
           node --check site-sync.js
           python3 -m py_compile scripts/prepare_public_site.py
+      - name: Actualiser l'index officiel des médicaments (BDPM)
+        run: python3 scripts/build_bdpm_index.py
       - name: Préparer le site partagé et son identifiant de publication
         run: python3 scripts/prepare_public_site.py
       - uses: actions/configure-pages@v5
