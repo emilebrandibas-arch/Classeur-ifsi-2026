@@ -3,6 +3,8 @@
   'use strict';
   const curated = window.IFSI_MEDICINES_ALL;
   const bdpm = window.IFSI_BDPM_INDEX;
+  const care = window.IFSI_NURSING_DETAILS;
+  const molecularCare = window.IFSI_NURSING_MOLECULES;
   const $ = id => document.getElementById(id);
   const search = $('search'), category = $('category'), counter = $('counter');
   const result = $('results'), more = $('more'), rxFilter = $('rx-filter');
@@ -42,13 +44,32 @@
     if(b.d.includes(n)) return b.kind === 'fiche' ? 10 : 11;
     return 12;
   };
+  const para = (label, value, style) => value ? '<p'+(style?' class="'+esc(style)+'"':'')+'><b>'+esc(label)+' :</b> '+esc(value)+'</p>' : '';
+  const careSection = b => {
+    const f = care?.families?.[b.family] || {};
+    const molecule = molecularCare?.molecules?.[b.dci] || {};
+    const global = care?.global || {};
+    return '<section class="ide-care" aria-label="Surveillances IDE pédagogiques">'+
+      '<h4>Préparation et sécurité</h4>'+
+      para('Contrôles communs',global.checks)+
+      para('Avant administration — vigilance par famille',f.before)+
+      (molecule.special ? para('Point spécifique de la molécule',molecule.special,'molecule-point') :
+        '<p class="care-caution">Ce médicament dispose de repères par famille, pas encore d’une note spécifique de molécule. Vérifier son RCP.</p>')+
+      '<h4>Suivi et accompagnement</h4>'+
+      para('Surveillances complémentaires',f.follow)+
+      para('Points de surveillance propres à la molécule',molecule.follow)+
+      para('Éducation et conseils au patient',f.education)+
+      para('Réévaluation et traçabilité',global.evaluation)+
+      '<p class="care-caution">'+esc(global.scope || 'Synthèse pédagogique : confirmer avec le RCP et le protocole du service.')+'</p>'+
+      '</section>';
+  };
   const itemFiche = b => {
     const f = families.get(b.family) || {};
     const ref = b.url ? '<a href="'+esc(b.url)+'" target="_blank" rel="noopener noreferrer">RCP / base officielle</a>' : '<a href="https://base-donnees-publique.medicaments.gouv.fr/" target="_blank" rel="noopener noreferrer">Rechercher dans la base publique</a>';
     const vid = b.vidalUrl ? '<a href="'+esc(b.vidalUrl)+'" target="_blank" rel="noopener noreferrer">Fiche VIDAL</a>' : '';
     return '<details class="drug"><summary><span class="names"><strong class="brand">'+esc(b.name)+'</strong><span class="dci">DCI : '+esc(b.dci)+'</span><span class="group">Fiche IDE · '+esc(f.group || '')+' · '+esc(f.family || b.family)+'</span>'+rxMark(b.rx)+'</span><span class="plus" aria-hidden="true">+</span></summary>'+
-      '<div class="info">'+rxDetails(b.rx)+'<p><b>Indications / rôle :</b> '+esc(f.aim || 'Consulter le RCP de cette spécialité.')+'</p><p><b>Rôle IDE :</b> '+esc(f.nurse || 'Vérifier prescription et protocole.')+'</p><p><b>Surveillance :</b> '+esc(f.monitor || 'À adapter à la molécule et au patient.')+'</p>'+
-      '<p class="alert"><b>Signes d’alerte :</b> '+esc(f.alarm || 'Toute réaction indésirable grave ou aggravation clinique.')+'</p><div class="refs">'+ref+vid+'</div></div></details>';
+      '<div class="info"><div class="care-state">Fiche infirmière enrichie · repères par famille, précisions par molécule lorsqu’elles existent</div>'+rxDetails(b.rx)+'<p><b>Indications / rôle :</b> '+esc(f.aim || 'Consulter le RCP de cette spécialité.')+'</p><p><b>Rôle IDE :</b> '+esc(f.nurse || 'Vérifier prescription et protocole.')+'</p><p><b>Surveillance :</b> '+esc(f.monitor || 'À adapter à la molécule et au patient.')+'</p>'+
+      '<p class="alert"><b>Signes d’alerte :</b> '+esc(f.alarm || 'Toute réaction indésirable grave ou aggravation clinique.')+'</p>'+careSection(b)+'<div class="refs">'+ref+vid+'<a href="https://www.has-sante.fr/jcms/c_1104569/fr/guide-outils-securisation-autoevaluation-administration-medicaments-partie2-mettre-en-oeuvre" target="_blank" rel="noopener noreferrer">Guide HAS des 5 B</a></div></div></details>';
   };
   const itemOfficial = b => {
     const url = 'https://base-donnees-publique.medicaments.gouv.fr/medicament/' + encodeURIComponent(b.cis) + '/extrait';
