@@ -8,10 +8,15 @@
   const result = $('results'), more = $('more'), rxFilter = $('rx-filter');
   const rules = window.IFSI_IDE_RX;
   const rxFor = b => rules?.evaluate(b) || {type:'non_evalue',reason:'Non évalué',conditions:'Vérifier la réglementation'};
-  const rxMark = x => x.type==='initiale' ? '<span class="prescription-mark">Prescription IDE possible · sous conditions</span>' : x.type==='renouvellement' ? '<span class="prescription-mark renew">Renouvellement IDE uniquement</span>' : '';
+  const rxMark = x => {
+    if(x.type==='non_evalue') return '';
+    const label = x.period==='ancien' ? 'Déjà prescriptible avant 2026' : 'Nouveau droit de prescription 2026';
+    const renewal = x.type==='renouvellement' ? ' · Renouvellement uniquement' : '';
+    return '<span class="prescription-mark '+(x.period==='ancien'?'prior':'new')+'">'+esc(label+renewal)+'</span>';
+  };
   const rxDetails = x => x.type==='non_evalue'
     ? '<p><b>Prescription IDE :</b> non évaluée automatiquement pour cette spécialité. Absence de marquage ≠ interdiction.</p>'
-    : '<p class="rx-info"><b>Prescription infirmière :</b> '+esc(x.reason)+'<br><b>Conditions :</b> '+esc(x.conditions)+'<br><a href="'+esc(x.source)+'" target="_blank" rel="noopener noreferrer">Arrêté du 26 juin 2026</a> · vérification documentaire du '+esc(x.verifiedOn)+'</p>';
+    : '<p class="rx-info"><b>Prescription infirmière :</b> '+esc(x.reason)+'<br><b>Catégorie :</b> '+esc(x.period==='ancien'?'Déjà prescriptible avant 2026':'Nouveau droit de prescription 2026')+'<br><b>Conditions :</b> '+esc(x.conditions)+'<br><a href="'+esc(x.source)+'" target="_blank" rel="noopener noreferrer">Consulter le texte juridique officiel</a> · vérification documentaire du '+esc(x.verifiedOn)+'</p>';
   const esc = value => String(value ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;', '<':'&lt;', '>':'&gt;', '"':'&quot;', "'":'&#39;'}[c]));
   const norm = value => String(value ?? '').normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase().replace(/[^a-z0-9]/g,'');
   if (!curated || !Array.isArray(curated.brands) || !curated.brands.length) {
@@ -56,7 +61,7 @@
     const q = norm(search.value.trim()), cat = category.value, rxValue=rxFilter?.value || '';
     const filtered = all.filter(b => {
       if(cat && (b.kind !== 'fiche' || (families.get(b.family)||{}).group !== cat)) return false;
-      if(rxValue && (rxValue==='marques' ? b.rx.type==='non_evalue' : b.rx.type!==rxValue)) return false;
+      if(rxValue && (rxValue==='marques' ? b.rx.type==='non_evalue' : ['ancien','nouveau'].includes(rxValue) ? b.rx.period!==rxValue : b.rx.type!==rxValue)) return false;
       return !q || b.n.includes(q) || b.d.includes(q) || (b.kind === 'fiche' && norm(b.family).includes(q));
     });
     if(q) filtered.sort((a,b) => ranking(a,q) - ranking(b,q) || a.name.localeCompare(b.name,'fr',{sensitivity:'base'}));
