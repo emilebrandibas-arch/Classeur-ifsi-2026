@@ -31,7 +31,7 @@ main{max-width:1180px;margin:auto;padding:20px clamp(12px,3vw,35px) 45px}
 .info{border-top:1px solid #dfebe7;padding:5px 16px 16px;font-size:13px;line-height:1.56}
 .info p{margin:10px 0}.info b{color:#1d5258}.alert{padding:10px;background:#fff0e9;border-left:3px solid #d77c55;border-radius:6px}
 .refs{margin-top:12px;display:flex;gap:10px;flex-wrap:wrap}.refs a{font-size:12px;font-weight:700}
-.showmore{display:block;margin:20px auto;border:0;border-radius:23px;background:#164d56;color:#fff;padding:12px 22px;font-weight:700}
+.showmore{display:block;margin:20px auto;border:0;border-radius:23px;background:#164d56;color:#fff;padding:12px 22px;font-weight:700}.showmore[hidden]{display:none}
 .help{font-size:12px;line-height:1.65;color:#5d7477;margin:20px 0}
 .empty{padding:20px;background:white;border:1px solid #dae5df;border-radius:14px;line-height:1.6}
 footer{padding:18px;text-align:center;font-size:12px;color:#597375;border-top:1px solid #d3e0db}
@@ -43,13 +43,13 @@ footer{padding:18px;text-align:center;font-size:12px;color:#597375;border-top:1p
 <div><label for="search">Nom commercial ou DCI</label><input id="search" type="search" autocomplete="off" placeholder="Ex. Tercian, Xanax, Nozinan…" autofocus aria-describedby="counter"></div>
 <div><label for="category">Famille thérapeutique</label><select id="category"><option value="">Toutes les familles</option></select></div></div>
 <div class="options"><span style="font-size:12px;color:#56747a;margin-right:4px">Exemples :</span>
-<button type="button" data-example="Tercian">Tercian</button><button type="button" data-example="Xanax">Xanax</button><button type="button" data-example="Doliprane">Doliprane</button><button type="button" data-example="Loxapac">Loxapac</button><button type="button" data-example="Lovenox">Lovenox</button><button type="button" data-example="Effexor">Effexor</button>
+<button type="button" data-example="Tercian">Tercian</button><button type="button" data-example="Théralène">Théralène</button><button type="button" data-example="Xanax">Xanax</button><button type="button" data-example="Doliprane">Doliprane</button><button type="button" data-example="Loxapac">Loxapac</button><button type="button" data-example="Lovenox">Lovenox</button><button type="button" data-example="Effexor">Effexor</button>
 <button id="clear" type="button">Effacer</button></div></section>
 <div id="counter" class="counter" role="status" aria-live="polite">Chargement de la bibliothèque…</div>
 <div id="results" class="list"></div><button id="more" class="showmore" type="button" hidden>Afficher plus de médicaments</button>
 <p class="help">Répertoire pédagogique IFSI, sans posologie. Une DCI peut correspondre à plusieurs marques, présentations et voies : elles ne sont pas automatiquement interchangeables. En soins, vérifier le médicament exact, la prescription, le résumé des caractéristiques du produit (RCP), les allergies et le protocole local. Les fiches de surveillance sont synthétiques et ne remplacent pas le RCP.</p>
 </main><footer>Répertoire IFSI 2026–2029 · Source de référence : Base publique des médicaments / ANSM et VIDAL</footer>
-<script src="./medicaments-repertoire.js?v=20261119-v2"></script>
+<script src="./medicaments-repertoire.js?v=20261119-v3"></script>
 <script>
 (function(){
 'use strict';
@@ -86,7 +86,7 @@ return !q||norm(b.name).includes(q)||norm(b.dci).includes(q)||norm(f.family).inc
 if(q)filtered.sort((a,b)=>ranking(a,q)-ranking(b,q)||a.name.localeCompare(b.name,'fr',{sensitivity:'base'}));
 counter.innerHTML='<strong>'+filtered.length+' résultat(s)</strong><span>sur '+brands.length+' noms commerciaux indexés · '+source.families.length+' rubriques</span>';
 result.innerHTML=filtered.length?filtered.slice(0,limit).map(item).join(''):'<div class="empty"><b>Aucun nom correspondant.</b><p>Essayez un autre nom commercial ou une DCI. Pour un médicament non indexé, vérifiez directement la <a href="https://base-donnees-publique.medicaments.gouv.fr/" target="_blank" rel="noopener noreferrer">base publique des médicaments</a>.</p></div>';
-more.hidden=filtered.length<=limit;more.textContent='Afficher les suivants ('+Math.min(48,filtered.length-limit)+')';
+more.hidden=filtered.length<=limit;more.textContent='Afficher les suivants ('+Math.min(48,Math.max(0,filtered.length-limit))+')';
 }
 search.addEventListener('input',()=>{limit=48;render()});
 category.addEventListener('change',()=>{limit=48;render()});
