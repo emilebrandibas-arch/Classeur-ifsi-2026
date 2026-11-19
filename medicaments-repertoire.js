@@ -1030,6 +1030,12 @@ window.IFSI_MEDICINES_ALL = {
       "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/63400513/extrait"
     },
     {
+      "name": "Théralène",
+      "dci": "Alimémazine",
+      "family": "Alimémazine — antihistaminique H1 sédatif",
+      "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/66801066/extrait"
+    },
+    {
       "name": "Tiorfan",
       "dci": "Racécadotril",
       "family": "Antidiarrhéiques symptomatiques",
@@ -1777,6 +1783,15 @@ window.IFSI_MEDICINES_ALL = {
       "nurse": "Vérifier spécialité, horaire et régularité de prise ; éviter les substitutions non validées.",
       "monitor": "TSH/T4 selon prescription, FC, poids, palpitations, fatigue.",
       "alarm": "Troubles du rythme ou signes francs de surdosage."
+    },
+    {
+      "group": "Neurologie et psychiatrie",
+      "family": "Alimémazine — antihistaminique H1 sédatif",
+      "examples": "Alimémazine (Théralène), comprimé 5 mg et solution buvable 4 % : présentations distinctes, non interchangeables sans vérification.",
+      "aim": "Antihistaminique H1 sédatif de la famille des phénothiazines, indiqué dans certaines insomnies occasionnelles ou transitoires chez l’adulte et, selon la présentation, dans des indications pédiatriques limitées après mesures comportementales.",
+      "nurse": "Contrôler prescription, indication, âge/poids et présentation exacte, ainsi que les autres médicaments sédatifs ; prévenir le risque de chute et sécuriser les déplacements. Ne jamais confondre les concentrations des formes buvables.",
+      "monitor": "Vigilance et somnolence, conscience, fréquence respiratoire selon contexte clinique, pression artérielle, équilibre, sécheresse buccale, constipation et rétention urinaire.",
+      "alarm": "Sédation anormale ou difficultés respiratoires, malaise ou chute, palpitations ou syncope, réaction allergique grave."
     },
     {
       "group": "Neurologie et psychiatrie",
