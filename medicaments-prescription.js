@@ -8,9 +8,8 @@ window.IFSI_IDE_RX = (() => {
   'use strict';
   const law = 'https://www.legifrance.gouv.fr/loda/id/JORFTEXT000054321926/';
   const normalize = x => String(x ?? '').normalize('NFD').replace(/[\u0300-\u036f]/g, '').toUpperCase().replace(/[’']/g, ' ').replace(/\s+/g,' ').trim();
-  const result = (type,reason,conditions) => ({type,reason,conditions,source:law,verifiedOn:'2026-11-19'});
-  const none = result('non_evalue', 'Droit de prescription infirmière non évalué automatiquement pour cette spécialité.', 'Ne pas interpréter l’absence de marquage comme une interdiction ; vérifier la réglementation et le RCP.');
-  const has = (a,s) => a.includes(s);
+  const result = (type,reason,conditions,period='nouveau',source=law) => ({type,reason,conditions,period,source,verifiedOn:'2026-11-19'});
+  const none = result('non_evalue', 'Droit de prescription infirmière non évalué automatiquement pour cette spécialité.', 'Ne pas interpréter l’absence de marquage comme une interdiction ; vérifier la réglementation et le RCP.', 'non_evalue');
   const solo = (dci, word) => dci === word || dci.replace(/\s+/g,' ') === word;
   const originalForms = /COMPRIME|GELULE|CAPSULE|BUVABLE|ORALE|ORAL/;
   function evaluate(drug) {
@@ -26,7 +25,7 @@ window.IFSI_IDE_RX = (() => {
     if ((solo(active,'NICOTINE') || active === 'NICOTINE BASE') &&
         !/INJECT|PERFUS/.test(galenic)) {
       return result('initiale','Substitut nicotinique : prescription IDE possible.',
-        'Dans le cadre du sevrage tabagique ; vérifier la présentation, les contre-indications, les interactions et la prise en charge.');
+        'Dans le cadre du sevrage tabagique ; vérifier la présentation, les contre-indications, les interactions et la prise en charge.', 'ancien', 'https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000032550536/');
     }
 
     // Antalgique de palier I. Exclusion des associations opioïdes et autres combinaisons.
@@ -48,7 +47,7 @@ window.IFSI_IDE_RX = (() => {
     }
 
     // Renouvellement, pas instauration : contraceptifs oraux identifiés à composition évocatrice.
-    const progestins = ['LEVONORGESTREL','DESOGESTREL','GESTODENE','DROSPIRENONE','NORGESTIMATE','NORETHISTERONE','NORELGESTROMINE','CYPROTERONE'];
+    const progestins = ['LEVONORGESTREL','DESOGESTREL','GESTODENE','DROSPIRENONE','NORGESTIMATE','NORETHISTERONE','NORELGESTROMINE'];
     const combinedPill = active.includes('ETHINYLESTRADIOL') && progestins.some(x => active.includes(x));
     const purePill = ['DESOGESTREL','DROSPIRENONE'].some(x => solo(active,x)) ||
         (solo(active,'LEVONORGESTREL') && /\b0[,.]03\s*MG\b/.test(dosage));
@@ -56,17 +55,18 @@ window.IFSI_IDE_RX = (() => {
     if (oral && noninjectable && (combinedPill || purePill || specialPill) &&
         !/IMPLANT|DISPOSITIF INTRA|INTRA UTER|PATCH|TRANSDERMIQUE/.test(galenic)) {
       return result('renouvellement','Contraceptif oral : renouvellement IDE possible sous conditions, pas de primo-prescription.',
-        'Ordonnance initiale de moins d’un an ; renouvellement de six mois maximum, non renouvelable par cette voie. Vérifier les restrictions et la prescription initiale.');
+        'Ordonnance initiale de moins d’un an ; renouvellement de six mois maximum, non renouvelable par cette voie. Vérifier les restrictions et la prescription initiale.', 'ancien');
     }
 
     // Vaccins : un nom de spécialité n’établit jamais à lui seul l’éligibilité du patient.
     const flu = /^(VAXIGRIP|INFLUVAC|FLUARIX|FLUCELVAX|EFLUELDA|FLUAD)(?:\s|$)/.test(name);
     const covid = /^(COMIRNATY|SPIKEVAX|NUVAXOVID|VIDPREVTYN)(?:\s|$)/.test(name);
-    if (flu || covid || /\bVACCIN\b/.test(name)) {
+    const calendarVaccine = /^(GARDASIL|REPEVAX|BOOSTRIX|ENGERIX|TWINRIX|MENQUADFI|NIMENRIX|PREVENAR|MENVEO|PRIORIX|M-M-RVAXPRO|SHINGRIX|VAXNEUVANCE|BEXSERO|TRUMENBA)(?:\s|$)/.test(name);
+    if (flu || covid || calendarVaccine) {
       return result('initiale','Vaccin : prescription IDE possible selon le calendrier vaccinal et les exceptions.',
-        covid ? 'COVID-19 : à partir de 5 ans selon recommandations et AMM de la présentation ; vérifier les exigences de formation et contre-indications.' :
-        flu ? 'Grippe saisonnière : à partir de 11 ans selon recommandations et AMM de la présentation ; vérifier les exigences de formation et contre-indications.' :
-        'Vaccins du calendrier : généralement à partir de 11 ans ; exception des vaccins vivants atténués chez les personnes immunodéprimées. Vérifier le calendrier actuel et les exigences de formation.');
+        covid ? 'COVID-19 : la prescription IDE était déjà possible avant 2026 pour certaines tranches d’âge. Le cadre actuel inclut les 5 ans et plus, selon la spécialité, les recommandations et les contre-indications.' :
+        flu ? 'Grippe saisonnière : à partir de 11 ans selon recommandations et AMM de la présentation ; vérifier la déclaration au conseil de l’Ordre et les contre-indications.' :
+        'Vaccins du calendrier : généralement à partir de 11 ans ; exception des vaccins vivants atténués chez les personnes immunodéprimées. Vérifier le calendrier actuel, les indications, les exigences de formation et la déclaration au conseil de l’Ordre.', 'ancien');
     }
 
     // Soins de plaies : ne pas étendre aux formes injectables ou aux autres indications.
