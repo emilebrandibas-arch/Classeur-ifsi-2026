@@ -31,6 +31,12 @@ jobs:
           node --check medicaments-prescription.js
           node --check medicaments-recherche.js
           node scripts/test_medication_prescription.js
+      - name: Auditer les fiches infirmières détaillées
+        run: |
+          node --check medicaments-fiches-ide.js
+          node --check medicaments-vigilance-molecules.js
+          node --check medicaments-recherche.js
+          node scripts/test_medication_sheets.js
       - name: Actualiser l'index officiel des médicaments (BDPM)
         run: python3 scripts/build_bdpm_index.py
       - name: Préparer le site partagé et son identifiant de publication
