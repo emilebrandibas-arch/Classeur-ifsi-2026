@@ -26,6 +26,11 @@ jobs:
         run: |
           node --check site-sync.js
           python3 -m py_compile scripts/prepare_public_site.py
+      - name: Vérifier le marquage des prescriptions infirmières
+        run: |
+          node --check medicaments-prescription.js
+          node --check medicaments-recherche.js
+          node scripts/test_medication_prescription.js
       - name: Actualiser l'index officiel des médicaments (BDPM)
         run: python3 scripts/build_bdpm_index.py
       - name: Préparer le site partagé et son identifiant de publication
