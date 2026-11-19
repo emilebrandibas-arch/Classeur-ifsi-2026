@@ -9,7 +9,8 @@ Le classeur regroupe les cours A4, les fiches de révision A5 et le planning CM/
 
 - **Adresse publique du classeur inchangée :** https://emilebrandibas-arch.github.io/Classeur-ifsi-2026/
 - **Recherche de médicaments A–Z par nom commercial :** https://emilebrandibas-arch.github.io/Classeur-ifsi-2026/medicaments.html
-- 233 noms commerciaux indexés, avec la DCI correspondante, regroupés en 95 rubriques thérapeutiques pédagogiques.
+- 234 noms commerciaux indexés, avec la DCI correspondante, regroupés en 96 rubriques thérapeutiques pédagogiques.
+- Ajout de **Théralène (alimémazine)** : nom commercial retrouvé avec ou sans accent, fiche pédagogique et lien vers la base publique. Correction du bouton « Afficher les suivants » lors des recherches sans résultat ; fichier de données versionné pour éviter les anciens caches.
 - Recherche par marque en priorité (Tercian, Xanax, Doliprane, Loxapac, etc.), ou par DCI, sans sensibilité aux accents/majuscules. Chaque fiche renvoie au rôle et aux surveillances IDE par famille, sans posologie.
 - Lien « Médicaments A–Z (marques) » accessible depuis l'accueil du classeur. Les anciens liens partagés restent valables après la publication GitHub Pages ; les utilisateurs peuvent actualiser la page si leur navigateur conserve une ancienne version.
 - Répertoire pédagogique : la DCI et le nom commercial ne suffisent pas pour déterminer l'équivalence des formes, des dosages ou des voies d'administration. Vérifier chaque spécialité auprès de la base publique des médicaments (RCP), de l'ANSM et des protocoles du service.
