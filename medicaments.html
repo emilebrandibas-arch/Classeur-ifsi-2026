@@ -30,6 +30,13 @@ main{max-width:1180px;margin:auto;padding:20px clamp(12px,3vw,35px) 45px}
 .plus{font-size:23px;color:#246b69;line-height:1}.drug[open] .plus{transform:rotate(45deg)}
 .info{border-top:1px solid #dfebe7;padding:5px 16px 16px;font-size:13px;line-height:1.56}
 .info p{margin:10px 0}.info b{color:#1d5258}.alert{padding:10px;background:#fff0e9;border-left:3px solid #d77c55;border-radius:6px}
+.ide-care{margin:14px 0 10px;padding:11px 12px;border:1px solid #d7e8df;border-radius:11px;background:#f8fbf8}
+.ide-care h4{margin:16px 0 7px;color:#18505b;font-size:13px;border-bottom:1px solid #dfe9e4;padding-bottom:6px}
+.ide-care h4:first-child{margin-top:2px}
+.ide-care p{margin:8px 0}
+.molecule-point{padding:10px;border-left:3px solid #c19d4f;border-radius:6px;background:#faf6eb}
+.care-caution{font-size:12px;color:#5b7174}
+.care-state{font-size:12px;font-weight:750;color:#24634f;background:#ebf5ed;padding:9px 10px;margin-top:8px;border-radius:8px}
 .refs{margin-top:12px;display:flex;gap:10px;flex-wrap:wrap}.refs a{font-size:12px;font-weight:700}
 .prescription-mark{display:inline-block;margin:9px 0 0;padding:5px 8px;border-radius:8px;font-size:12px;font-weight:800;color:#871b27;background:#fff0f1;border:1px solid #d75e69}
 .prescription-mark.new{color:#9e1727;background:#ffe1e5;border-color:#d64253}
@@ -43,7 +50,7 @@ footer{padding:18px;text-align:center;font-size:12px;color:#597375;border-top:1p
 @media(max-width:640px){.controls{grid-template-columns:1fr}.searchpanel{padding:13px}.drug summary{padding:14px}header{padding:20px 16px}}
 </style></head><body>
 <header><a href="./index.html">← Retour au classeur virtuel IFSI 2026–2029</a><h1>Médicaments A–Z</h1>
-<p>Recherche prioritaire par <strong>nom commercial</strong> : Tercian, Xanax, Doliprane, Lovenox… Les fiches IDE détaillées sont complétées par l’index officiel des spécialités françaises : recherchez un nom commercial, une DCI ou une présentation.</p></header>
+<p>Recherche prioritaire par <strong>nom commercial</strong> : Tercian, Xanax, Doliprane, Lovenox… Les 234 fiches IDE disposent désormais de repères de préparation, de surveillance et d'éducation par famille, ainsi que de points spécifiques pour les molécules prioritaires. L'index officiel permet aussi de retrouver les autres spécialités par nom commercial, DCI ou présentation.</p></header>
 <main><section class="searchpanel" aria-label="Recherche de médicaments"><div class="controls">
 <div><label for="search">Nom commercial ou DCI</label><input id="search" type="search" autocomplete="off" placeholder="Ex. Tercian, Xanax, Nozinan…" autofocus aria-describedby="counter"></div>
 <div><label for="category">Famille thérapeutique</label><select id="category"><option value="">Toutes les familles</option></select></div></div>
@@ -52,10 +59,12 @@ footer{padding:18px;text-align:center;font-size:12px;color:#597375;border-top:1p
 <button id="clear" type="button">Effacer</button></div></section>
 <div id="counter" class="counter" role="status" aria-live="polite">Chargement de la bibliothèque…</div>
 <p id="source-note" class="help" aria-live="polite">Chargement des références officielles…</p><div id="results" class="list"></div><button id="more" class="showmore" type="button" hidden>Afficher plus de médicaments</button>
-<p class="help">Répertoire pédagogique IFSI, sans posologie. L’index officiel BDPM répertorie les spécialités, leurs substances, formes et voies : il ne constitue pas une fiche de surveillance IDE validée. Une DCI peut correspondre à plusieurs marques, présentations et voies : elles ne sont pas automatiquement interchangeables. En soins, vérifier le médicament exact, la prescription, le résumé des caractéristiques du produit (RCP), les allergies et le protocole local. Les fiches de surveillance sont synthétiques et ne remplacent pas le RCP.</p>
+<p class="help">Répertoire pédagogique IFSI, sans posologie. L’index officiel BDPM répertorie les spécialités, leurs substances, formes et voies : il ne constitue pas une fiche de surveillance IDE validée. Une DCI peut correspondre à plusieurs marques, présentations et voies : elles ne sont pas automatiquement interchangeables. En soins, vérifier le médicament exact, la prescription, le résumé des caractéristiques du produit (RCP), les allergies et le protocole local. Les 234 fiches enrichies restent des synthèses pédagogiques : elles regroupent 70 profils de familles et des points spécifiques pour 48 DCI. Les autres références officielles ne sont pas des fiches IDE individuellement validées. Le RCP de la spécialité et le protocole du service priment toujours.</p>
 </main><footer>Répertoire IFSI 2026–2029 · Source de référence : Base publique des médicaments / ANSM et VIDAL</footer>
 <script src="./medicaments-repertoire.js?v=20261119-v3"></script>
 <script src="./medicaments-officiels.js"></script>
 <script src="./medicaments-prescription.js"></script>
+<script src="./medicaments-fiches-ide.js"></script>
+<script src="./medicaments-vigilance-molecules.js"></script>
 <script src="./medicaments-recherche.js"></script>
 </body></html>
